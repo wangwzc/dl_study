@@ -8,7 +8,7 @@ import math
 from datetime import datetime
 import torch.nn.init as init
 
-num_of_neures_in_input_layer = 3
+num_of_neures_in_input_layer = 5000
 num_of_neures_in_hidden_layer = 5
 activate_fun = nn.ReLU
 # activate_fun = nn.Sigmoid
@@ -23,12 +23,12 @@ batch_size = 50
 lr = 0.00001
 
 
-epic = 1600
-# input_weights_file = f'({num_of_neures_in_hidden_layer}).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic}).wt'
-output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic})-N-init.wt'
+epic = 4000
+# input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic})-N-init.1.wt'
+output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic})-N-init.1.wt'
 
-# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+# device = torch.device("cpu")
 
 isNeedNormalize = True    # 是都对数据做归一化
 # checkValidity = True    # train集 全集验证
@@ -36,6 +36,8 @@ isNeedNormalize = True    # 是都对数据做归一化
 per_epic_val = True       # 每个epic打印一次验证结果
 
 data_file = "G-small_data.txt"  # 数据文件路径
+
+# torch.set_printoptions(sci_mode=False)
 
 class MAELoss(nn.Module):
     def __init__(self):
@@ -109,22 +111,37 @@ class MyDataset(Dataset):
                 inputs.append(float(input_value))
                 targets.append(float(target_value))
 
+        # if ("isNeedNormalize" in globals()):
+        #     print("Normalize data.")
+        #     max_value = max(inputs)
+        #     min_value = min(inputs)
+        #     inputs =  [2 * (x - min_value) / (max_value - min_value) - 1 for x in inputs]
+        #     max_value = max(targets)
+        #     min_value = min(targets)
+        #     targets = [(x - min_value) / (max_value - min_value) for x in targets]
+        #     # print(inputs)
+        #     # print(targets)
+        # if num_of_neures_in_input_layer >= 2:
+        #     input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
+        #     inputs = [list(item) for item in zip(inputs, input_noize)]
+        # for i in range(num_of_neures_in_input_layer - 2):
+        #     input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
+        #     inputs = [sublist + [num] for sublist, num in zip(inputs, input_noize)]
+
         if ("isNeedNormalize" in globals()):
             print("Normalize data.")
-            max_value = max(inputs)
-            min_value = min(inputs)
-            inputs =  [2 * (x - min_value) / (max_value - min_value) - 1 for x in inputs]
-            max_value = max(targets)
-            min_value = min(targets)
-            targets = [(x - min_value) / (max_value - min_value) for x in targets]
-            # print(inputs)
-            # print(targets)
+            inputs = np.array(inputs)
+            targets = np.array(targets)
+            inputs = 2 * (inputs - np.min(inputs)) / (np.max(inputs) - np.min(inputs)) - 1
+            targets = (targets - np.min(targets)) / (np.max(targets) - np.min(targets))
         if num_of_neures_in_input_layer >= 2:
-            input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
-            inputs = [list(item) for item in zip(inputs, input_noize)]
-        for i in range(num_of_neures_in_input_layer - 2):
-            input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
-            inputs = [sublist + [num] for sublist, num in zip(inputs, input_noize)]
+            input_noise = np.random.uniform(-1, 1, size=(len(inputs),)).astype(float)
+            inputs = np.column_stack((inputs, input_noise))
+        # for i in range(num_of_neures_in_input_layer - 2):
+        input_noise = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer - 2))).astype(float)
+        inputs = np.column_stack((inputs, input_noise))
+        inputs = inputs.tolist()
+        targets = targets.tolist()
 
         print("inputs.shape:", np.array(inputs).shape)
 
@@ -233,8 +250,16 @@ def train(net):
     criterion = criterion_fun()
     optimizer = optimizer_fun(net.parameters(), lr=lr)
 
+    before_train_time = datetime.now()
+    print("prepare time:", (before_train_time - start_time))
+    last_around_start_time = before_train_time
+
     for i in range(epic):
         # print("###################### epic:", i)
+        # start_train_time = datetime.now()
+        # print("start train time:", (start_train_time - last_around_start_time))
+        # last_around_start_time = start_train_time
+
         # 训练每个批次
         for batch_inputs, batch_targets in train_dataloader:
             # 将批次数据移动到CUDA设备
@@ -245,6 +270,9 @@ def train(net):
 
             # 前向传播
             output_tensor = net(batch_inputs)
+            # print("batch_inputs", (1/2) * 9.8 * (batch_inputs*100)**2)
+            # print("batch_targets", batch_targets*49000)
+            # print("diff", ((1/2) * 9.8 * (batch_inputs*100)**2) - batch_targets*49000)
 
             # 计算训练损失
             loss = criterion(output_tensor, batch_targets)
@@ -285,6 +313,11 @@ if __name__ == '__main__':
         net.load_state_dict(torch.load(input_weights_file))
     else:
         print("No weights loaded.")
+
+    # 遍历网络的所有参数，并打印它们的名称、形状和值
+    # for name, param in net.named_parameters():
+    #     print(f"Parameter name: {name}\t Parameter shape: {param.shape}")
+    #     print(f"Parameter value: {param.data}\n")
 
     if ("checkValidity" in globals()):
         verifyResult(net)

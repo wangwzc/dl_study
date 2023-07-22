@@ -1,0 +1,4008 @@
+start_time: 2023-07-23 16:55:35.892645
+No weights loaded.
+Normalize data.
+inputs.shape: (20000, 2)
+prepare time: 0:00:00.117517
+ loss: 0.4346505206078291 
+Parameter value: tensor([[-0.1671,  0.2931],
+        [-0.6576,  1.0213]], device='cuda:0')
+
+ loss: 0.42944988459348676 
+Parameter value: tensor([[-0.1700,  0.2963],
+        [-0.6547,  1.0183]], device='cuda:0')
+
+ loss: 0.42434126026928426 
+Parameter value: tensor([[-0.1730,  0.2995],
+        [-0.6519,  1.0153]], device='cuda:0')
+
+ loss: 0.4193058028817177 
+Parameter value: tensor([[-0.1761,  0.3028],
+        [-0.6491,  1.0123]], device='cuda:0')
+
+ loss: 0.41434888504445555 
+Parameter value: tensor([[-0.1792,  0.3061],
+        [-0.6463,  1.0093]], device='cuda:0')
+
+ loss: 0.4094562601298094 
+Parameter value: tensor([[-0.1823,  0.3094],
+        [-0.6435,  1.0064]], device='cuda:0')
+
+ loss: 0.4046317607164383 
+Parameter value: tensor([[-0.1855,  0.3127],
+        [-0.6407,  1.0034]], device='cuda:0')
+
+ loss: 0.3998771823942661 
+Parameter value: tensor([[-0.1886,  0.3160],
+        [-0.6380,  1.0005]], device='cuda:0')
+
+ loss: 0.3951675817370415 
+Parameter value: tensor([[-0.1918,  0.3193],
+        [-0.6352,  0.9976]], device='cuda:0')
+
+ loss: 0.39051592983305455 
+Parameter value: tensor([[-0.1949,  0.3226],
+        [-0.6325,  0.9948]], device='cuda:0')
+
+ loss: 0.38590157553553583 
+Parameter value: tensor([[-0.1981,  0.3259],
+        [-0.6298,  0.9919]], device='cuda:0')
+
+ loss: 0.38134785518050196 
+Parameter value: tensor([[-0.2012,  0.3291],
+        [-0.6271,  0.9890]], device='cuda:0')
+
+ loss: 0.37684861980378626 
+Parameter value: tensor([[-0.2043,  0.3324],
+        [-0.6243,  0.9862]], device='cuda:0')
+
+ loss: 0.3723787385970354 
+Parameter value: tensor([[-0.2074,  0.3356],
+        [-0.6216,  0.9833]], device='cuda:0')
+
+ loss: 0.36796463243663313 
+Parameter value: tensor([[-0.2106,  0.3388],
+        [-0.6189,  0.9805]], device='cuda:0')
+
+ loss: 0.3636052880436182 
+Parameter value: tensor([[-0.2137,  0.3420],
+        [-0.6162,  0.9777]], device='cuda:0')
+
+ loss: 0.35928794778883455 
+Parameter value: tensor([[-0.2167,  0.3452],
+        [-0.6136,  0.9748]], device='cuda:0')
+
+ loss: 0.355025102943182 
+Parameter value: tensor([[-0.2198,  0.3484],
+        [-0.6109,  0.9720]], device='cuda:0')
+
+ loss: 0.3508003681898117 
+Parameter value: tensor([[-0.2228,  0.3515],
+        [-0.6082,  0.9692]], device='cuda:0')
+
+ loss: 0.3466131314635277 
+Parameter value: tensor([[-0.2259,  0.3546],
+        [-0.6055,  0.9664]], device='cuda:0')
+
+ loss: 0.34249448738992216 
+Parameter value: tensor([[-0.2289,  0.3578],
+        [-0.6028,  0.9636]], device='cuda:0')
+
+ loss: 0.33843187876045705 
+Parameter value: tensor([[-0.2319,  0.3608],
+        [-0.6001,  0.9608]], device='cuda:0')
+
+ loss: 0.33442339319735764 
+Parameter value: tensor([[-0.2350,  0.3639],
+        [-0.5974,  0.9580]], device='cuda:0')
+
+ loss: 0.330478572845459 
+Parameter value: tensor([[-0.2380,  0.3670],
+        [-0.5947,  0.9552]], device='cuda:0')
+
+ loss: 0.32661059945821763 
+Parameter value: tensor([[-0.2410,  0.3700],
+        [-0.5920,  0.9525]], device='cuda:0')
+
+ loss: 0.3228152677416801 
+Parameter value: tensor([[-0.2440,  0.3731],
+        [-0.5894,  0.9497]], device='cuda:0')
+
+ loss: 0.3190994530916214 
+Parameter value: tensor([[-0.2469,  0.3761],
+        [-0.5867,  0.9469]], device='cuda:0')
+
+ loss: 0.31542921867221596 
+Parameter value: tensor([[-0.2499,  0.3791],
+        [-0.5840,  0.9442]], device='cuda:0')
+
+ loss: 0.31183706857264043 
+Parameter value: tensor([[-0.2528,  0.3821],
+        [-0.5814,  0.9414]], device='cuda:0')
+
+ loss: 0.308313525095582 
+Parameter value: tensor([[-0.2557,  0.3850],
+        [-0.5787,  0.9387]], device='cuda:0')
+
+ loss: 0.3048504119738936 
+Parameter value: tensor([[-0.2587,  0.3880],
+        [-0.5761,  0.9359]], device='cuda:0')
+
+ loss: 0.3014703791588545 
+Parameter value: tensor([[-0.2616,  0.3909],
+        [-0.5734,  0.9332]], device='cuda:0')
+
+ loss: 0.29815311897546054 
+Parameter value: tensor([[-0.2645,  0.3937],
+        [-0.5708,  0.9305]], device='cuda:0')
+
+ loss: 0.29493105243891476 
+Parameter value: tensor([[-0.2674,  0.3966],
+        [-0.5681,  0.9278]], device='cuda:0')
+
+ loss: 0.2918104771524668 
+Parameter value: tensor([[-0.2703,  0.3994],
+        [-0.5655,  0.9251]], device='cuda:0')
+
+ loss: 0.2888134153559804 
+Parameter value: tensor([[-0.2732,  0.4022],
+        [-0.5629,  0.9224]], device='cuda:0')
+
+ loss: 0.2859129341319203 
+Parameter value: tensor([[-0.2760,  0.4050],
+        [-0.5603,  0.9198]], device='cuda:0')
+
+ loss: 0.2831361411139369 
+Parameter value: tensor([[-0.2789,  0.4078],
+        [-0.5576,  0.9171]], device='cuda:0')
+
+ loss: 0.2804647162556648 
+Parameter value: tensor([[-0.2818,  0.4106],
+        [-0.5550,  0.9145]], device='cuda:0')
+
+ loss: 0.27793470975011586 
+Parameter value: tensor([[-0.2847,  0.4133],
+        [-0.5524,  0.9118]], device='cuda:0')
+
+ loss: 0.2755488783121109 
+Parameter value: tensor([[-0.2875,  0.4160],
+        [-0.5498,  0.9092]], device='cuda:0')
+
+ loss: 0.27328661661595105 
+Parameter value: tensor([[-0.2904,  0.4186],
+        [-0.5471,  0.9066]], device='cuda:0')
+
+ loss: 0.27116221133619545 
+Parameter value: tensor([[-0.2932,  0.4212],
+        [-0.5445,  0.9040]], device='cuda:0')
+
+ loss: 0.2691750770434737 
+Parameter value: tensor([[-0.2960,  0.4238],
+        [-0.5419,  0.9014]], device='cuda:0')
+
+ loss: 0.2673124473541975 
+Parameter value: tensor([[-0.2988,  0.4264],
+        [-0.5393,  0.8989]], device='cuda:0')
+
+ loss: 0.2655411910265684 
+Parameter value: tensor([[-0.3015,  0.4290],
+        [-0.5367,  0.8963]], device='cuda:0')
+
+ loss: 0.26386601757258177 
+Parameter value: tensor([[-0.3043,  0.4314],
+        [-0.5342,  0.8938]], device='cuda:0')
+
+ loss: 0.26227081660181284 
+Parameter value: tensor([[-0.3071,  0.4339],
+        [-0.5316,  0.8913]], device='cuda:0')
+
+ loss: 0.2607603956013918 
+Parameter value: tensor([[-0.3098,  0.4363],
+        [-0.5290,  0.8888]], device='cuda:0')
+
+ loss: 0.25933190267533063 
+Parameter value: tensor([[-0.3125,  0.4387],
+        [-0.5265,  0.8863]], device='cuda:0')
+
+ loss: 0.2579850284382701 
+Parameter value: tensor([[-0.3153,  0.4410],
+        [-0.5240,  0.8839]], device='cuda:0')
+
+ loss: 0.25674720872193574 
+Parameter value: tensor([[-0.3180,  0.4432],
+        [-0.5214,  0.8815]], device='cuda:0')
+
+ loss: 0.2555887458845973 
+Parameter value: tensor([[-0.3207,  0.4454],
+        [-0.5189,  0.8791]], device='cuda:0')
+
+ loss: 0.25451593901962044 
+Parameter value: tensor([[-0.3234,  0.4476],
+        [-0.5164,  0.8767]], device='cuda:0')
+
+ loss: 0.2535179268568754 
+Parameter value: tensor([[-0.3261,  0.4496],
+        [-0.5139,  0.8744]], device='cuda:0')
+
+ loss: 0.2525990329682827 
+Parameter value: tensor([[-0.3288,  0.4517],
+        [-0.5114,  0.8720]], device='cuda:0')
+
+ loss: 0.2517469212412834 
+Parameter value: tensor([[-0.3314,  0.4536],
+        [-0.5089,  0.8697]], device='cuda:0')
+
+ loss: 0.2509870633482933 
+Parameter value: tensor([[-0.3341,  0.4554],
+        [-0.5064,  0.8675]], device='cuda:0')
+
+ loss: 0.2502962028607726 
+Parameter value: tensor([[-0.3367,  0.4572],
+        [-0.5039,  0.8653]], device='cuda:0')
+
+ loss: 0.24967874847352506 
+Parameter value: tensor([[-0.3394,  0.4589],
+        [-0.5015,  0.8632]], device='cuda:0')
+
+ loss: 0.24912291318178176 
+Parameter value: tensor([[-0.3420,  0.4605],
+        [-0.4990,  0.8611]], device='cuda:0')
+
+ loss: 0.24863927122205495 
+Parameter value: tensor([[-0.3446,  0.4620],
+        [-0.4965,  0.8590]], device='cuda:0')
+
+ loss: 0.24821741059422492 
+Parameter value: tensor([[-0.3472,  0.4633],
+        [-0.4941,  0.8571]], device='cuda:0')
+
+ loss: 0.24786722641438247 
+Parameter value: tensor([[-0.3498,  0.4646],
+        [-0.4917,  0.8552]], device='cuda:0')
+
+ loss: 0.24757848996669055 
+Parameter value: tensor([[-0.3524,  0.4657],
+        [-0.4892,  0.8533]], device='cuda:0')
+
+ loss: 0.24735718090087175 
+Parameter value: tensor([[-0.3549,  0.4668],
+        [-0.4868,  0.8516]], device='cuda:0')
+
+ loss: 0.24717519227415324 
+Parameter value: tensor([[-0.3574,  0.4677],
+        [-0.4844,  0.8499]], device='cuda:0')
+
+ loss: 0.2470401691272855 
+Parameter value: tensor([[-0.3599,  0.4684],
+        [-0.4820,  0.8483]], device='cuda:0')
+
+ loss: 0.24694446362555028 
+Parameter value: tensor([[-0.3624,  0.4691],
+        [-0.4797,  0.8468]], device='cuda:0')
+
+ loss: 0.2468988599255681 
+Parameter value: tensor([[-0.3649,  0.4696],
+        [-0.4773,  0.8455]], device='cuda:0')
+
+ loss: 0.24689363744109868 
+Parameter value: tensor([[-0.3673,  0.4699],
+        [-0.4749,  0.8443]], device='cuda:0')
+
+ loss: 0.24693745765835046 
+Parameter value: tensor([[-0.3697,  0.4701],
+        [-0.4726,  0.8432]], device='cuda:0')
+
+ loss: 0.24700921960175037 
+Parameter value: tensor([[-0.3721,  0.4702],
+        [-0.4702,  0.8422]], device='cuda:0')
+
+ loss: 0.24709995202720164 
+Parameter value: tensor([[-0.3745,  0.4700],
+        [-0.4679,  0.8414]], device='cuda:0')
+
+ loss: 0.2472300074994564 
+Parameter value: tensor([[-0.3769,  0.4698],
+        [-0.4656,  0.8408]], device='cuda:0')
+
+ loss: 0.24739364441484213 
+Parameter value: tensor([[-0.3793,  0.4694],
+        [-0.4633,  0.8403]], device='cuda:0')
+
+ loss: 0.24757833760231734 
+Parameter value: tensor([[-0.3816,  0.4688],
+        [-0.4610,  0.8401]], device='cuda:0')
+
+ loss: 0.2477858869358897 
+Parameter value: tensor([[-0.3839,  0.4683],
+        [-0.4587,  0.8399]], device='cuda:0')
+
+ loss: 0.24800506308674813 
+Parameter value: tensor([[-0.3863,  0.4675],
+        [-0.4565,  0.8399]], device='cuda:0')
+
+ loss: 0.24823400024324654 
+Parameter value: tensor([[-0.3885,  0.4666],
+        [-0.4542,  0.8402]], device='cuda:0')
+
+ loss: 0.24847048260271548 
+Parameter value: tensor([[-0.3908,  0.4657],
+        [-0.4520,  0.8405]], device='cuda:0')
+
+ loss: 0.24870314430445434 
+Parameter value: tensor([[-0.3930,  0.4647],
+        [-0.4497,  0.8410]], device='cuda:0')
+
+ loss: 0.24893415682017803 
+Parameter value: tensor([[-0.3953,  0.4636],
+        [-0.4475,  0.8416]], device='cuda:0')
+
+ loss: 0.2491654995828867 
+Parameter value: tensor([[-0.3975,  0.4624],
+        [-0.4453,  0.8424]], device='cuda:0')
+
+ loss: 0.24939545001834632 
+Parameter value: tensor([[-0.3996,  0.4612],
+        [-0.4432,  0.8433]], device='cuda:0')
+
+ loss: 0.24961114544421434 
+Parameter value: tensor([[-0.4017,  0.4600],
+        [-0.4410,  0.8443]], device='cuda:0')
+
+ loss: 0.249822679720819 
+Parameter value: tensor([[-0.4039,  0.4588],
+        [-0.4389,  0.8454]], device='cuda:0')
+
+ loss: 0.2500149251893163 
+Parameter value: tensor([[-0.4060,  0.4574],
+        [-0.4367,  0.8466]], device='cuda:0')
+
+ loss: 0.25019925404340027 
+Parameter value: tensor([[-0.4082,  0.4561],
+        [-0.4346,  0.8478]], device='cuda:0')
+
+ loss: 0.2503612933680415 
+Parameter value: tensor([[-0.4103,  0.4547],
+        [-0.4325,  0.8492]], device='cuda:0')
+
+ loss: 0.25050807669758796 
+Parameter value: tensor([[-0.4124,  0.4533],
+        [-0.4303,  0.8506]], device='cuda:0')
+
+ loss: 0.25064018499106167 
+Parameter value: tensor([[-0.4145,  0.4519],
+        [-0.4282,  0.8520]], device='cuda:0')
+
+ loss: 0.2507556267082691 
+Parameter value: tensor([[-0.4167,  0.4505],
+        [-0.4261,  0.8534]], device='cuda:0')
+
+ loss: 0.2508546279743314 
+Parameter value: tensor([[-0.4187,  0.4490],
+        [-0.4241,  0.8549]], device='cuda:0')
+
+ loss: 0.25094743706285955 
+Parameter value: tensor([[-0.4209,  0.4476],
+        [-0.4220,  0.8564]], device='cuda:0')
+
+ loss: 0.25102242548018694 
+Parameter value: tensor([[-0.4229,  0.4461],
+        [-0.4201,  0.8578]], device='cuda:0')
+
+ loss: 0.2510837819427252 
+Parameter value: tensor([[-0.4250,  0.4446],
+        [-0.4181,  0.8593]], device='cuda:0')
+
+ loss: 0.25113605353981255 
+Parameter value: tensor([[-0.4272,  0.4432],
+        [-0.4161,  0.8607]], device='cuda:0')
+
+ loss: 0.25116631370037795 
+Parameter value: tensor([[-0.4293,  0.4417],
+        [-0.4142,  0.8622]], device='cuda:0')
+
+ loss: 0.25118812508881094 
+Parameter value: tensor([[-0.4315,  0.4402],
+        [-0.4123,  0.8637]], device='cuda:0')
+
+ loss: 0.2511813690885901 
+Parameter value: tensor([[-0.4336,  0.4386],
+        [-0.4104,  0.8652]], device='cuda:0')
+
+ loss: 0.25117919966578484 
+Parameter value: tensor([[-0.4357,  0.4371],
+        [-0.4085,  0.8667]], device='cuda:0')
+
+ loss: 0.2511741418391466 
+Parameter value: tensor([[-0.4379,  0.4356],
+        [-0.4066,  0.8681]], device='cuda:0')
+
+ loss: 0.2511578403413296 
+Parameter value: tensor([[-0.4401,  0.4341],
+        [-0.4048,  0.8695]], device='cuda:0')
+
+ loss: 0.25112683698534966 
+Parameter value: tensor([[-0.4422,  0.4325],
+        [-0.4031,  0.8709]], device='cuda:0')
+
+ loss: 0.2510930556803942 
+Parameter value: tensor([[-0.4444,  0.4310],
+        [-0.4013,  0.8723]], device='cuda:0')
+
+ loss: 0.2510657703503966 
+Parameter value: tensor([[-0.4466,  0.4295],
+        [-0.3996,  0.8736]], device='cuda:0')
+
+ loss: 0.25102273039519785 
+Parameter value: tensor([[-0.4488,  0.4280],
+        [-0.3979,  0.8750]], device='cuda:0')
+
+ loss: 0.2509771604090929 
+Parameter value: tensor([[-0.4510,  0.4265],
+        [-0.3962,  0.8763]], device='cuda:0')
+
+ loss: 0.2509153032675385 
+Parameter value: tensor([[-0.4533,  0.4249],
+        [-0.3945,  0.8776]], device='cuda:0')
+
+ loss: 0.25085518751293423 
+Parameter value: tensor([[-0.4555,  0.4234],
+        [-0.3929,  0.8789]], device='cuda:0')
+
+ loss: 0.2507900457829237 
+Parameter value: tensor([[-0.4578,  0.4218],
+        [-0.3913,  0.8802]], device='cuda:0')
+
+ loss: 0.25071887746453286 
+Parameter value: tensor([[-0.4600,  0.4202],
+        [-0.3898,  0.8814]], device='cuda:0')
+
+ loss: 0.2506464237347245 
+Parameter value: tensor([[-0.4623,  0.4187],
+        [-0.3882,  0.8826]], device='cuda:0')
+
+ loss: 0.25057747438549993 
+Parameter value: tensor([[-0.4647,  0.4171],
+        [-0.3867,  0.8838]], device='cuda:0')
+
+ loss: 0.2504813052713871 
+Parameter value: tensor([[-0.4670,  0.4156],
+        [-0.3852,  0.8849]], device='cuda:0')
+
+ loss: 0.25039318166673186 
+Parameter value: tensor([[-0.4693,  0.4140],
+        [-0.3838,  0.8860]], device='cuda:0')
+
+ loss: 0.250307528488338 
+Parameter value: tensor([[-0.4717,  0.4124],
+        [-0.3824,  0.8871]], device='cuda:0')
+
+ loss: 0.25021525397896766 
+Parameter value: tensor([[-0.4740,  0.4108],
+        [-0.3811,  0.8882]], device='cuda:0')
+
+ loss: 0.250120815448463 
+Parameter value: tensor([[-0.4764,  0.4092],
+        [-0.3798,  0.8892]], device='cuda:0')
+
+ loss: 0.25002209190279245 
+Parameter value: tensor([[-0.4788,  0.4076],
+        [-0.3784,  0.8902]], device='cuda:0')
+
+ loss: 0.24992368146777152 
+Parameter value: tensor([[-0.4813,  0.4059],
+        [-0.3772,  0.8912]], device='cuda:0')
+
+ loss: 0.24981301724910737 
+Parameter value: tensor([[-0.4837,  0.4042],
+        [-0.3759,  0.8921]], device='cuda:0')
+
+ loss: 0.2497176757082343 
+Parameter value: tensor([[-0.4861,  0.4026],
+        [-0.3747,  0.8930]], device='cuda:0')
+
+ loss: 0.24959301855415106 
+Parameter value: tensor([[-0.4886,  0.4008],
+        [-0.3735,  0.8939]], device='cuda:0')
+
+ loss: 0.24948318861424923 
+Parameter value: tensor([[-0.4911,  0.3990],
+        [-0.3724,  0.8948]], device='cuda:0')
+
+ loss: 0.24936801232397557 
+Parameter value: tensor([[-0.4935,  0.3973],
+        [-0.3713,  0.8956]], device='cuda:0')
+
+ loss: 0.24924726635217667 
+Parameter value: tensor([[-0.4960,  0.3955],
+        [-0.3703,  0.8964]], device='cuda:0')
+
+ loss: 0.2491259790956974 
+Parameter value: tensor([[-0.4986,  0.3937],
+        [-0.3692,  0.8972]], device='cuda:0')
+
+ loss: 0.24898388590663673
+Parameter value: tensor([[-0.5011,  0.3918],
+        [-0.3682,  0.8980]], device='cuda:0')
+
+ loss: 0.2488638326525688
+Parameter value: tensor([[-0.5037,  0.3900],
+        [-0.3673,  0.8987]], device='cuda:0')
+
+ loss: 0.2487280324101448
+Parameter value: tensor([[-0.5062,  0.3881],
+        [-0.3664,  0.8994]], device='cuda:0')
+
+ loss: 0.2485843738541007
+Parameter value: tensor([[-0.5088,  0.3862],
+        [-0.3655,  0.9000]], device='cuda:0')
+
+ loss: 0.24844131246209145
+Parameter value: tensor([[-0.5114,  0.3842],
+        [-0.3646,  0.9007]], device='cuda:0')
+
+ loss: 0.24828659780323506
+Parameter value: tensor([[-0.5140,  0.3822],
+        [-0.3638,  0.9014]], device='cuda:0')
+
+ loss: 0.24813285581767558
+Parameter value: tensor([[-0.5165,  0.3802],
+        [-0.3631,  0.9019]], device='cuda:0')
+
+ loss: 0.24796368461102247
+Parameter value: tensor([[-0.5192,  0.3781],
+        [-0.3622,  0.9025]], device='cuda:0')
+
+ loss: 0.2478114480152726
+Parameter value: tensor([[-0.5218,  0.3760],
+        [-0.3615,  0.9031]], device='cuda:0')
+
+ loss: 0.24764317590743304
+Parameter value: tensor([[-0.5245,  0.3739],
+        [-0.3608,  0.9036]], device='cuda:0')
+
+ loss: 0.24748861305415631
+Parameter value: tensor([[-0.5272,  0.3717],
+        [-0.3601,  0.9041]], device='cuda:0')
+
+ loss: 0.2473101269453764
+Parameter value: tensor([[-0.5299,  0.3696],
+        [-0.3594,  0.9045]], device='cuda:0')
+
+ loss: 0.24713064692914485
+Parameter value: tensor([[-0.5327,  0.3674],
+        [-0.3588,  0.9050]], device='cuda:0')
+
+ loss: 0.2469502193853259 
+Parameter value: tensor([[-0.5354,  0.3651],
+        [-0.3582,  0.9054]], device='cuda:0')
+
+ loss: 0.24675595182925464 
+Parameter value: tensor([[-0.5381,  0.3627],
+        [-0.3577,  0.9058]], device='cuda:0')
+
+ loss: 0.24656398072838784 
+Parameter value: tensor([[-0.5409,  0.3604],
+        [-0.3572,  0.9062]], device='cuda:0')
+
+ loss: 0.24637692887336016 
+Parameter value: tensor([[-0.5437,  0.3580],
+        [-0.3567,  0.9066]], device='cuda:0')
+
+ loss: 0.24617250300943852 
+Parameter value: tensor([[-0.5464,  0.3557],
+        [-0.3562,  0.9069]], device='cuda:0')
+
+ loss: 0.2459853645414114 
+Parameter value: tensor([[-0.5492,  0.3533],
+        [-0.3557,  0.9072]], device='cuda:0')
+
+ loss: 0.24577694926410915 
+Parameter value: tensor([[-0.5520,  0.3508],
+        [-0.3553,  0.9075]], device='cuda:0')
+
+ loss: 0.24555764347314835 
+Parameter value: tensor([[-0.5548,  0.3483],
+        [-0.3549,  0.9078]], device='cuda:0')
+
+ loss: 0.2453563330695033 
+Parameter value: tensor([[-0.5576,  0.3458],
+        [-0.3545,  0.9080]], device='cuda:0')
+
+ loss: 0.24514145608991383 
+Parameter value: tensor([[-0.5604,  0.3433],
+        [-0.3541,  0.9083]], device='cuda:0')
+
+ loss: 0.24492922089993954 
+Parameter value: tensor([[-0.5632,  0.3408],
+        [-0.3538,  0.9085]], device='cuda:0')
+
+ loss: 0.24470793437212707 
+Parameter value: tensor([[-0.5660,  0.3383],
+        [-0.3535,  0.9087]], device='cuda:0')
+
+ loss: 0.24446926955133677 
+Parameter value: tensor([[-0.5687,  0.3357],
+        [-0.3532,  0.9089]], device='cuda:0')
+
+ loss: 0.244229294359684 
+Parameter value: tensor([[-0.5715,  0.3332],
+        [-0.3529,  0.9091]], device='cuda:0')
+
+ loss: 0.24400044064968823 
+Parameter value: tensor([[-0.5743,  0.3306],
+        [-0.3526,  0.9092]], device='cuda:0')
+
+ loss: 0.2437621420249343 
+Parameter value: tensor([[-0.5771,  0.3280],
+        [-0.3524,  0.9094]], device='cuda:0')
+
+ loss: 0.24350385069847108 
+Parameter value: tensor([[-0.5799,  0.3254],
+        [-0.3523,  0.9095]], device='cuda:0')
+
+ loss: 0.24325364995747806 
+Parameter value: tensor([[-0.5826,  0.3229],
+        [-0.3521,  0.9096]], device='cuda:0')
+
+ loss: 0.2430062185972929 
+Parameter value: tensor([[-0.5854,  0.3203],
+        [-0.3519,  0.9097]], device='cuda:0')
+
+ loss: 0.24274875689297915 
+Parameter value: tensor([[-0.5881,  0.3177],
+        [-0.3518,  0.9098]], device='cuda:0')
+
+ loss: 0.242493137717247 
+Parameter value: tensor([[-0.5909,  0.3151],
+        [-0.3517,  0.9099]], device='cuda:0')
+
+ loss: 0.2422320105135441 
+Parameter value: tensor([[-0.5937,  0.3125],
+        [-0.3516,  0.9100]], device='cuda:0')
+
+ loss: 0.24197282176464796 
+Parameter value: tensor([[-0.5964,  0.3100],
+        [-0.3515,  0.9100]], device='cuda:0')
+
+ loss: 0.24169923681765795 
+Parameter value: tensor([[-0.5992,  0.3074],
+        [-0.3514,  0.9100]], device='cuda:0')
+
+ loss: 0.2414340026676655 
+Parameter value: tensor([[-0.6019,  0.3048],
+        [-0.3514,  0.9101]], device='cuda:0')
+
+ loss: 0.24117022901773452 
+Parameter value: tensor([[-0.6047,  0.3022],
+        [-0.3514,  0.9101]], device='cuda:0')
+
+ loss: 0.24090239256620408 
+Parameter value: tensor([[-0.6074,  0.2997],
+        [-0.3514,  0.9101]], device='cuda:0')
+
+ loss: 0.24062659069895745 
+Parameter value: tensor([[-0.6101,  0.2971],
+        [-0.3514,  0.9101]], device='cuda:0')
+
+ loss: 0.2403608463704586 
+Parameter value: tensor([[-0.6128,  0.2946],
+        [-0.3514,  0.9100]], device='cuda:0')
+
+ loss: 0.24007469415664673 
+Parameter value: tensor([[-0.6155,  0.2921],
+        [-0.3515,  0.9100]], device='cuda:0')
+
+ loss: 0.23980198428034782 
+Parameter value: tensor([[-0.6183,  0.2895],
+        [-0.3516,  0.9099]], device='cuda:0')
+
+ loss: 0.23951957635581494 
+Parameter value: tensor([[-0.6210,  0.2870],
+        [-0.3517,  0.9099]], device='cuda:0')
+
+ loss: 0.23923638071864844 
+Parameter value: tensor([[-0.6237,  0.2845],
+        [-0.3518,  0.9098]], device='cuda:0')
+
+ loss: 0.23895960189402105 
+Parameter value: tensor([[-0.6264,  0.2820],
+        [-0.3519,  0.9097]], device='cuda:0')
+
+ loss: 0.23866812512278557 
+Parameter value: tensor([[-0.6291,  0.2795],
+        [-0.3521,  0.9097]], device='cuda:0')
+
+ loss: 0.23839375637471677 
+Parameter value: tensor([[-0.6318,  0.2770],
+        [-0.3522,  0.9095]], device='cuda:0')
+
+ loss: 0.23809239622205497 
+Parameter value: tensor([[-0.6345,  0.2744],
+        [-0.3524,  0.9095]], device='cuda:0')
+
+ loss: 0.23780700713396072 
+Parameter value: tensor([[-0.6372,  0.2719],
+        [-0.3526,  0.9094]], device='cuda:0')
+
+ loss: 0.23751289676874876 
+Parameter value: tensor([[-0.6398,  0.2695],
+        [-0.3529,  0.9092]], device='cuda:0')
+
+ loss: 0.23722358997911214 
+Parameter value: tensor([[-0.6425,  0.2670],
+        [-0.3531,  0.9090]], device='cuda:0')
+
+ loss: 0.2369354275986552 
+Parameter value: tensor([[-0.6451,  0.2646],
+        [-0.3534,  0.9089]], device='cuda:0')
+
+ loss: 0.23664086144417523 
+Parameter value: tensor([[-0.6478,  0.2622],
+        [-0.3537,  0.9087]], device='cuda:0')
+
+ loss: 0.23636008538305758 
+Parameter value: tensor([[-0.6504,  0.2597],
+        [-0.3540,  0.9085]], device='cuda:0')
+
+ loss: 0.23605444505810738 
+Parameter value: tensor([[-0.6530,  0.2573],
+        [-0.3543,  0.9084]], device='cuda:0')
+
+ loss: 0.23575770743191243 
+Parameter value: tensor([[-0.6556,  0.2549],
+        [-0.3546,  0.9082]], device='cuda:0')
+
+ loss: 0.23546665497124195 
+Parameter value: tensor([[-0.6583,  0.2525],
+        [-0.3549,  0.9080]], device='cuda:0')
+
+ loss: 0.2351686518639326 
+Parameter value: tensor([[-0.6609,  0.2501],
+        [-0.3553,  0.9078]], device='cuda:0')
+
+ loss: 0.2348855769261718 
+Parameter value: tensor([[-0.6635,  0.2478],
+        [-0.3557,  0.9076]], device='cuda:0')
+
+ loss: 0.2345883833244443 
+Parameter value: tensor([[-0.6661,  0.2454],
+        [-0.3561,  0.9074]], device='cuda:0')
+
+ loss: 0.2343033015727997 
+Parameter value: tensor([[-0.6687,  0.2431],
+        [-0.3565,  0.9071]], device='cuda:0')
+
+ loss: 0.23399449121207 
+Parameter value: tensor([[-0.6713,  0.2408],
+        [-0.3569,  0.9069]], device='cuda:0')
+
+ loss: 0.2337133653461933 
+Parameter value: tensor([[-0.6739,  0.2385],
+        [-0.3573,  0.9066]], device='cuda:0')
+
+ loss: 0.2334114883095026 
+Parameter value: tensor([[-0.6764,  0.2362],
+        [-0.3577,  0.9064]], device='cuda:0')
+
+ loss: 0.23313622381538152 
+Parameter value: tensor([[-0.6790,  0.2340],
+        [-0.3582,  0.9061]], device='cuda:0')
+
+ loss: 0.23284547217190266 
+Parameter value: tensor([[-0.6815,  0.2317],
+        [-0.3587,  0.9059]], device='cuda:0')
+
+ loss: 0.2325448775663972 
+Parameter value: tensor([[-0.6841,  0.2294],
+        [-0.3592,  0.9056]], device='cuda:0')
+
+ loss: 0.23225694727152585 
+Parameter value: tensor([[-0.6866,  0.2272],
+        [-0.3596,  0.9053]], device='cuda:0')
+
+ loss: 0.2319598574191332 
+Parameter value: tensor([[-0.6892,  0.2250],
+        [-0.3602,  0.9050]], device='cuda:0')
+
+ loss: 0.23166917636990547 
+Parameter value: tensor([[-0.6917,  0.2228],
+        [-0.3607,  0.9048]], device='cuda:0')
+
+ loss: 0.23138942215591668 
+Parameter value: tensor([[-0.6942,  0.2206],
+        [-0.3612,  0.9044]], device='cuda:0')
+
+ loss: 0.23109286110848187 
+Parameter value: tensor([[-0.6967,  0.2184],
+        [-0.3618,  0.9042]], device='cuda:0')
+
+ loss: 0.23080127574503423 
+Parameter value: tensor([[-0.6992,  0.2163],
+        [-0.3623,  0.9039]], device='cuda:0')
+
+ loss: 0.23052227701991795 
+Parameter value: tensor([[-0.7016,  0.2142],
+        [-0.3629,  0.9035]], device='cuda:0')
+
+ loss: 0.23023363761603832 
+Parameter value: tensor([[-0.7041,  0.2120],
+        [-0.3635,  0.9032]], device='cuda:0')
+
+ loss: 0.22994233313947915 
+Parameter value: tensor([[-0.7066,  0.2099],
+        [-0.3640,  0.9029]], device='cuda:0')
+
+ loss: 0.22965245954692365 
+Parameter value: tensor([[-0.7091,  0.2079],
+        [-0.3646,  0.9026]], device='cuda:0')
+
+ loss: 0.22937933634966612 
+Parameter value: tensor([[-0.7116,  0.2058],
+        [-0.3652,  0.9022]], device='cuda:0')
+
+ loss: 0.22909230627119542 
+Parameter value: tensor([[-0.7141,  0.2038],
+        [-0.3659,  0.9018]], device='cuda:0')
+
+ loss: 0.2287940775975585 
+Parameter value: tensor([[-0.7165,  0.2018],
+        [-0.3665,  0.9015]], device='cuda:0')
+
+ loss: 0.22851228881627322 
+Parameter value: tensor([[-0.7190,  0.1998],
+        [-0.3670,  0.9012]], device='cuda:0')
+
+ loss: 0.2282316878437996 
+Parameter value: tensor([[-0.7214,  0.1978],
+        [-0.3677,  0.9008]], device='cuda:0')
+
+ loss: 0.22794499434530735 
+Parameter value: tensor([[-0.7238,  0.1958],
+        [-0.3684,  0.9004]], device='cuda:0')
+
+ loss: 0.22765882275998592 
+Parameter value: tensor([[-0.7262,  0.1938],
+        [-0.3690,  0.9000]], device='cuda:0')
+
+ loss: 0.22739197686314583 
+Parameter value: tensor([[-0.7287,  0.1919],
+        [-0.3697,  0.8996]], device='cuda:0')
+
+ loss: 0.2270986896008253 
+Parameter value: tensor([[-0.7311,  0.1900],
+        [-0.3704,  0.8992]], device='cuda:0')
+
+ loss: 0.22681759744882585 
+Parameter value: tensor([[-0.7335,  0.1881],
+        [-0.3710,  0.8988]], device='cuda:0')
+
+ loss: 0.22654691562056542 
+Parameter value: tensor([[-0.7359,  0.1862],
+        [-0.3718,  0.8984]], device='cuda:0')
+
+ loss: 0.22625362016260625 
+Parameter value: tensor([[-0.7383,  0.1843],
+        [-0.3725,  0.8980]], device='cuda:0')
+
+ loss: 0.22598665188997985 
+Parameter value: tensor([[-0.7407,  0.1825],
+        [-0.3732,  0.8975]], device='cuda:0')
+
+ loss: 0.2256901877000928 
+Parameter value: tensor([[-0.7431,  0.1806],
+        [-0.3739,  0.8972]], device='cuda:0')
+
+ loss: 0.22541622240096332 
+Parameter value: tensor([[-0.7455,  0.1789],
+        [-0.3747,  0.8967]], device='cuda:0')
+
+ loss: 0.22513183038681744 
+Parameter value: tensor([[-0.7479,  0.1771],
+        [-0.3754,  0.8962]], device='cuda:0')
+
+ loss: 0.2248629515990615 
+Parameter value: tensor([[-0.7503,  0.1754],
+        [-0.3762,  0.8958]], device='cuda:0')
+
+ loss: 0.2245742054656148 
+Parameter value: tensor([[-0.7527,  0.1736],
+        [-0.3770,  0.8954]], device='cuda:0')
+
+ loss: 0.2242930054664612 
+Parameter value: tensor([[-0.7550,  0.1719],
+        [-0.3779,  0.8949]], device='cuda:0')
+
+ loss: 0.2240176761522889 
+Parameter value: tensor([[-0.7574,  0.1702],
+        [-0.3786,  0.8945]], device='cuda:0')
+
+ loss: 0.22375077120959758 
+Parameter value: tensor([[-0.7598,  0.1685],
+        [-0.3795,  0.8940]], device='cuda:0')
+
+ loss: 0.2234811417758465 
+Parameter value: tensor([[-0.7621,  0.1670],
+        [-0.3803,  0.8935]], device='cuda:0')
+
+ loss: 0.2231950506567955 
+Parameter value: tensor([[-0.7644,  0.1654],
+        [-0.3811,  0.8931]], device='cuda:0')
+
+ loss: 0.22292997669428588 
+Parameter value: tensor([[-0.7668,  0.1638],
+        [-0.3821,  0.8926]], device='cuda:0')
+
+ loss: 0.22266171760857106 
+Parameter value: tensor([[-0.7691,  0.1623],
+        [-0.3829,  0.8921]], device='cuda:0')
+
+ loss: 0.22237998452037572 
+Parameter value: tensor([[-0.7714,  0.1608],
+        [-0.3838,  0.8916]], device='cuda:0')
+
+ loss: 0.22210793197155 
+Parameter value: tensor([[-0.7737,  0.1594],
+        [-0.3847,  0.8911]], device='cuda:0')
+
+ loss: 0.22183517813682557 
+Parameter value: tensor([[-0.7760,  0.1580],
+        [-0.3856,  0.8907]], device='cuda:0')
+
+ loss: 0.22155491076409817 
+Parameter value: tensor([[-0.7783,  0.1565],
+        [-0.3865,  0.8902]], device='cuda:0')
+
+ loss: 0.22127384636551142 
+Parameter value: tensor([[-0.7806,  0.1551],
+        [-0.3874,  0.8897]], device='cuda:0')
+
+ loss: 0.2210062937811017 
+Parameter value: tensor([[-0.7828,  0.1538],
+        [-0.3884,  0.8892]], device='cuda:0')
+
+ loss: 0.22073883898556232 
+Parameter value: tensor([[-0.7851,  0.1525],
+        [-0.3893,  0.8887]], device='cuda:0')
+
+ loss: 0.2204656245186925 
+Parameter value: tensor([[-0.7874,  0.1511],
+        [-0.3902,  0.8882]], device='cuda:0')
+
+ loss: 0.22019210048019885 
+Parameter value: tensor([[-0.7896,  0.1499],
+        [-0.3912,  0.8877]], device='cuda:0')
+
+ loss: 0.21991831231862308 
+Parameter value: tensor([[-0.7918,  0.1487],
+        [-0.3922,  0.8871]], device='cuda:0')
+
+ loss: 0.21965309530496596 
+Parameter value: tensor([[-0.7940,  0.1474],
+        [-0.3931,  0.8866]], device='cuda:0')
+
+ loss: 0.21937224008142947 
+Parameter value: tensor([[-0.7962,  0.1462],
+        [-0.3941,  0.8861]], device='cuda:0')
+
+ loss: 0.21910716276615858 
+Parameter value: tensor([[-0.7984,  0.1450],
+        [-0.3951,  0.8856]], device='cuda:0')
+
+ loss: 0.21883543469011785 
+Parameter value: tensor([[-0.8006,  0.1439],
+        [-0.3961,  0.8851]], device='cuda:0')
+
+ loss: 0.21856065094470978 
+Parameter value: tensor([[-0.8028,  0.1427],
+        [-0.3971,  0.8846]], device='cuda:0')
+
+ loss: 0.2182913465425372 
+Parameter value: tensor([[-0.8051,  0.1416],
+        [-0.3981,  0.8841]], device='cuda:0')
+
+ loss: 0.21802248600870372 
+Parameter value: tensor([[-0.8073,  0.1406],
+        [-0.3991,  0.8836]], device='cuda:0')
+
+ loss: 0.21775829307734967 
+Parameter value: tensor([[-0.8094,  0.1395],
+        [-0.4002,  0.8831]], device='cuda:0')
+
+ loss: 0.21750097945332528 
+Parameter value: tensor([[-0.8116,  0.1385],
+        [-0.4012,  0.8825]], device='cuda:0')
+
+ loss: 0.21721741203218697 
+Parameter value: tensor([[-0.8138,  0.1375],
+        [-0.4022,  0.8820]], device='cuda:0')
+
+ loss: 0.21695941984653472 
+Parameter value: tensor([[-0.8160,  0.1366],
+        [-0.4033,  0.8814]], device='cuda:0')
+
+ loss: 0.21670233067125083 
+Parameter value: tensor([[-0.8181,  0.1357],
+        [-0.4043,  0.8809]], device='cuda:0')
+
+ loss: 0.2164444515481591 
+Parameter value: tensor([[-0.8202,  0.1347],
+        [-0.4054,  0.8804]], device='cuda:0')
+
+ loss: 0.2161707989871502 
+Parameter value: tensor([[-0.8223,  0.1339],
+        [-0.4064,  0.8799]], device='cuda:0')
+
+ loss: 0.21589982714504002 
+Parameter value: tensor([[-0.8244,  0.1330],
+        [-0.4075,  0.8794]], device='cuda:0')
+
+ loss: 0.2156412322074175 
+Parameter value: tensor([[-0.8265,  0.1321],
+        [-0.4086,  0.8789]], device='cuda:0')
+
+ loss: 0.21538330223411323 
+Parameter value: tensor([[-0.8286,  0.1313],
+        [-0.4097,  0.8783]], device='cuda:0')
+
+ loss: 0.21511501632630825 
+Parameter value: tensor([[-0.8307,  0.1305],
+        [-0.4108,  0.8778]], device='cuda:0')
+
+ loss: 0.21484603639692068 
+Parameter value: tensor([[-0.8328,  0.1298],
+        [-0.4120,  0.8772]], device='cuda:0')
+
+ loss: 0.21459551379084588 
+Parameter value: tensor([[-0.8349,  0.1291],
+        [-0.4131,  0.8766]], device='cuda:0')
+
+ loss: 0.21432255916297435 
+Parameter value: tensor([[-0.8370,  0.1284],
+        [-0.4143,  0.8761]], device='cuda:0')
+
+ loss: 0.21406460739672184 
+Parameter value: tensor([[-0.8392,  0.1277],
+        [-0.4155,  0.8755]], device='cuda:0')
+
+ loss: 0.21379964537918567 
+Parameter value: tensor([[-0.8413,  0.1271],
+        [-0.4167,  0.8750]], device='cuda:0')
+
+ loss: 0.21353249680250883 
+Parameter value: tensor([[-0.8434,  0.1264],
+        [-0.4179,  0.8744]], device='cuda:0')
+
+ loss: 0.21326283346861602 
+Parameter value: tensor([[-0.8455,  0.1258],
+        [-0.4191,  0.8739]], device='cuda:0')
+
+ loss: 0.21301168985664845 
+Parameter value: tensor([[-0.8476,  0.1252],
+        [-0.4203,  0.8733]], device='cuda:0')
+
+ loss: 0.21275369226932525 
+Parameter value: tensor([[-0.8496,  0.1247],
+        [-0.4214,  0.8728]], device='cuda:0')
+
+ loss: 0.21249004937708377 
+Parameter value: tensor([[-0.8516,  0.1241],
+        [-0.4226,  0.8723]], device='cuda:0')
+
+ loss: 0.2122338630259037 
+Parameter value: tensor([[-0.8537,  0.1237],
+        [-0.4238,  0.8717]], device='cuda:0')
+
+ loss: 0.21198262684047223 
+Parameter value: tensor([[-0.8558,  0.1231],
+        [-0.4250,  0.8711]], device='cuda:0')
+
+ loss: 0.21170996818691493 
+Parameter value: tensor([[-0.8578,  0.1226],
+        [-0.4262,  0.8706]], device='cuda:0')
+
+ loss: 0.211459506675601 
+Parameter value: tensor([[-0.8598,  0.1221],
+        [-0.4275,  0.8700]], device='cuda:0')
+
+ loss: 0.21119864620268344 
+Parameter value: tensor([[-0.8619,  0.1216],
+        [-0.4287,  0.8694]], device='cuda:0')
+
+ loss: 0.21092231739312411 
+Parameter value: tensor([[-0.8639,  0.1211],
+        [-0.4299,  0.8689]], device='cuda:0')
+
+ loss: 0.21066841222345828 
+Parameter value: tensor([[-0.8659,  0.1207],
+        [-0.4311,  0.8683]], device='cuda:0')
+
+ loss: 0.2104306410998106 
+Parameter value: tensor([[-0.8680,  0.1203],
+        [-0.4324,  0.8678]], device='cuda:0')
+
+ loss: 0.21016043573617935 
+Parameter value: tensor([[-0.8700,  0.1198],
+        [-0.4337,  0.8672]], device='cuda:0')
+
+ loss: 0.20991763453930617 
+Parameter value: tensor([[-0.8720,  0.1195],
+        [-0.4349,  0.8666]], device='cuda:0')
+
+ loss: 0.209656491689384 
+Parameter value: tensor([[-0.8740,  0.1192],
+        [-0.4361,  0.8661]], device='cuda:0')
+
+ loss: 0.20939844455569984 
+Parameter value: tensor([[-0.8760,  0.1187],
+        [-0.4374,  0.8656]], device='cuda:0')
+
+ loss: 0.20913928393274545 
+Parameter value: tensor([[-0.8780,  0.1184],
+        [-0.4387,  0.8650]], device='cuda:0')
+
+ loss: 0.2088904758915305 
+Parameter value: tensor([[-0.8800,  0.1181],
+        [-0.4400,  0.8645]], device='cuda:0')
+
+ loss: 0.2086238119751215 
+Parameter value: tensor([[-0.8820,  0.1178],
+        [-0.4413,  0.8639]], device='cuda:0')
+
+ loss: 0.20837156604975463 
+Parameter value: tensor([[-0.8840,  0.1175],
+        [-0.4427,  0.8634]], device='cuda:0')
+
+ loss: 0.20811825878918172 
+Parameter value: tensor([[-0.8860,  0.1173],
+        [-0.4440,  0.8628]], device='cuda:0')
+
+ loss: 0.2078766582533717 
+Parameter value: tensor([[-0.8880,  0.1171],
+        [-0.4453,  0.8622]], device='cuda:0')
+
+ loss: 0.2076128287240863 
+Parameter value: tensor([[-0.8899,  0.1169],
+        [-0.4467,  0.8616]], device='cuda:0')
+
+ loss: 0.20736209005117417 
+Parameter value: tensor([[-0.8919,  0.1167],
+        [-0.4480,  0.8611]], device='cuda:0')
+
+ loss: 0.20710582602769137 
+Parameter value: tensor([[-0.8938,  0.1166],
+        [-0.4494,  0.8605]], device='cuda:0')
+
+ loss: 0.20686460416764021 
+Parameter value: tensor([[-0.8958,  0.1164],
+        [-0.4507,  0.8600]], device='cuda:0')
+
+ loss: 0.20661065224558114 
+Parameter value: tensor([[-0.8977,  0.1163],
+        [-0.4521,  0.8594]], device='cuda:0')
+
+ loss: 0.20633979197591543 
+Parameter value: tensor([[-0.8996,  0.1162],
+        [-0.4535,  0.8589]], device='cuda:0')
+
+ loss: 0.20610926505178212 
+Parameter value: tensor([[-0.9015,  0.1162],
+        [-0.4549,  0.8583]], device='cuda:0')
+
+ loss: 0.20585788711905478 
+Parameter value: tensor([[-0.9034,  0.1161],
+        [-0.4563,  0.8577]], device='cuda:0')
+
+ loss: 0.20559655278921127 
+Parameter value: tensor([[-0.9054,  0.1160],
+        [-0.4577,  0.8571]], device='cuda:0')
+
+ loss: 0.20534763652831317 
+Parameter value: tensor([[-0.9073,  0.1160],
+        [-0.4590,  0.8566]], device='cuda:0')
+
+ loss: 0.20509654395282267 
+Parameter value: tensor([[-0.9092,  0.1159],
+        [-0.4604,  0.8560]], device='cuda:0')
+
+ loss: 0.20484756641089916 
+Parameter value: tensor([[-0.9110,  0.1159],
+        [-0.4619,  0.8554]], device='cuda:0')
+
+ loss: 0.2045941438525915 
+Parameter value: tensor([[-0.9129,  0.1159],
+        [-0.4633,  0.8548]], device='cuda:0')
+
+ loss: 0.20435253605246545 
+Parameter value: tensor([[-0.9148,  0.1159],
+        [-0.4647,  0.8542]], device='cuda:0')
+
+ loss: 0.20410060472786426 
+Parameter value: tensor([[-0.9167,  0.1159],
+        [-0.4661,  0.8537]], device='cuda:0')
+
+ loss: 0.20384651124477388 
+Parameter value: tensor([[-0.9186,  0.1160],
+        [-0.4675,  0.8531]], device='cuda:0')
+
+ loss: 0.20359434578567742 
+Parameter value: tensor([[-0.9205,  0.1160],
+        [-0.4689,  0.8526]], device='cuda:0')
+
+ loss: 0.2033513905480504 
+Parameter value: tensor([[-0.9223,  0.1160],
+        [-0.4704,  0.8520]], device='cuda:0')
+
+ loss: 0.20310404803603888 
+Parameter value: tensor([[-0.9242,  0.1161],
+        [-0.4718,  0.8514]], device='cuda:0')
+
+ loss: 0.20284919515252114 
+Parameter value: tensor([[-0.9260,  0.1161],
+        [-0.4733,  0.8508]], device='cuda:0')
+
+ loss: 0.20259874276816844 
+Parameter value: tensor([[-0.9279,  0.1162],
+        [-0.4747,  0.8502]], device='cuda:0')
+
+ loss: 0.20234488286077976 
+Parameter value: tensor([[-0.9297,  0.1164],
+        [-0.4762,  0.8496]], device='cuda:0')
+
+ loss: 0.20209967233240606 
+Parameter value: tensor([[-0.9316,  0.1164],
+        [-0.4776,  0.8490]], device='cuda:0')
+
+ loss: 0.20185113102197647 
+Parameter value: tensor([[-0.9334,  0.1166],
+        [-0.4791,  0.8484]], device='cuda:0')
+
+ loss: 0.20161463581025602 
+Parameter value: tensor([[-0.9352,  0.1167],
+        [-0.4806,  0.8478]], device='cuda:0')
+
+ loss: 0.20137487016618252 
+Parameter value: tensor([[-0.9370,  0.1169],
+        [-0.4821,  0.8472]], device='cuda:0')
+
+ loss: 0.20111706368625165 
+Parameter value: tensor([[-0.9388,  0.1171],
+        [-0.4836,  0.8465]], device='cuda:0')
+
+ loss: 0.20088344980031253 
+Parameter value: tensor([[-0.9407,  0.1172],
+        [-0.4851,  0.8459]], device='cuda:0')
+
+ loss: 0.20063543636351824 
+Parameter value: tensor([[-0.9425,  0.1174],
+        [-0.4867,  0.8453]], device='cuda:0')
+
+ loss: 0.20038308911025524 
+Parameter value: tensor([[-0.9443,  0.1176],
+        [-0.4883,  0.8446]], device='cuda:0')
+
+ loss: 0.20013999547809364 
+Parameter value: tensor([[-0.9461,  0.1178],
+        [-0.4898,  0.8440]], device='cuda:0')
+
+ loss: 0.19989127907902002 
+Parameter value: tensor([[-0.9479,  0.1180],
+        [-0.4914,  0.8433]], device='cuda:0')
+
+ loss: 0.1996432239189744 
+Parameter value: tensor([[-0.9497,  0.1182],
+        [-0.4930,  0.8426]], device='cuda:0')
+
+ loss: 0.19940826259553432 
+Parameter value: tensor([[-0.9515,  0.1185],
+        [-0.4945,  0.8420]], device='cuda:0')
+
+ loss: 0.19916257858276368 
+Parameter value: tensor([[-0.9533,  0.1187],
+        [-0.4961,  0.8413]], device='cuda:0')
+
+ loss: 0.19890083521604537 
+Parameter value: tensor([[-0.9551,  0.1190],
+        [-0.4977,  0.8407]], device='cuda:0')
+
+ loss: 0.19867912847548724 
+Parameter value: tensor([[-0.9568,  0.1193],
+        [-0.4993,  0.8400]], device='cuda:0')
+
+ loss: 0.19843684379011392 
+Parameter value: tensor([[-0.9586,  0.1196],
+        [-0.5009,  0.8394]], device='cuda:0')
+
+ loss: 0.19820052273571492 
+Parameter value: tensor([[-0.9604,  0.1199],
+        [-0.5024,  0.8387]], device='cuda:0')
+
+ loss: 0.19794279746711255 
+Parameter value: tensor([[-0.9621,  0.1202],
+        [-0.5040,  0.8380]], device='cuda:0')
+
+ loss: 0.19771491140127181 
+Parameter value: tensor([[-0.9639,  0.1205],
+        [-0.5056,  0.8373]], device='cuda:0')
+
+ loss: 0.19746890533715486 
+Parameter value: tensor([[-0.9656,  0.1207],
+        [-0.5073,  0.8366]], device='cuda:0')
+
+ loss: 0.19722978677600622 
+Parameter value: tensor([[-0.9673,  0.1211],
+        [-0.5089,  0.8359]], device='cuda:0')
+
+ loss: 0.19699062034487724 
+Parameter value: tensor([[-0.9691,  0.1215],
+        [-0.5105,  0.8352]], device='cuda:0')
+
+ loss: 0.1967589695006609 
+Parameter value: tensor([[-0.9708,  0.1218],
+        [-0.5121,  0.8345]], device='cuda:0')
+
+ loss: 0.19651767499744893 
+Parameter value: tensor([[-0.9725,  0.1222],
+        [-0.5137,  0.8338]], device='cuda:0')
+
+ loss: 0.19628180973231793 
+Parameter value: tensor([[-0.9742,  0.1225],
+        [-0.5154,  0.8331]], device='cuda:0')
+
+ loss: 0.19602729100733995 
+Parameter value: tensor([[-0.9760,  0.1228],
+        [-0.5170,  0.8324]], device='cuda:0')
+
+ loss: 0.19580103009939193 
+Parameter value: tensor([[-0.9777,  0.1233],
+        [-0.5187,  0.8316]], device='cuda:0')
+
+ loss: 0.19556714836508035 
+Parameter value: tensor([[-0.9795,  0.1236],
+        [-0.5203,  0.8309]], device='cuda:0')
+
+ loss: 0.19532720986753702 
+Parameter value: tensor([[-0.9812,  0.1240],
+        [-0.5221,  0.8301]], device='cuda:0')
+
+ loss: 0.19509097766131162 
+Parameter value: tensor([[-0.9829,  0.1244],
+        [-0.5237,  0.8293]], device='cuda:0')
+
+ loss: 0.19484969396144153 
+Parameter value: tensor([[-0.9846,  0.1248],
+        [-0.5254,  0.8286]], device='cuda:0')
+
+ loss: 0.19463421553373336 
+Parameter value: tensor([[-0.9863,  0.1252],
+        [-0.5270,  0.8278]], device='cuda:0')
+
+ loss: 0.1944001218304038 
+Parameter value: tensor([[-0.9880,  0.1256],
+        [-0.5287,  0.8270]], device='cuda:0')
+
+ loss: 0.1941536221653223 
+Parameter value: tensor([[-0.9896,  0.1260],
+        [-0.5304,  0.8263]], device='cuda:0')
+
+ loss: 0.19392633736133574 
+Parameter value: tensor([[-0.9914,  0.1265],
+        [-0.5320,  0.8255]], device='cuda:0')
+
+ loss: 0.1936878612264991 
+Parameter value: tensor([[-0.9931,  0.1269],
+        [-0.5336,  0.8247]], device='cuda:0')
+
+ loss: 0.19345419071614742 
+Parameter value: tensor([[-0.9948,  0.1274],
+        [-0.5352,  0.8240]], device='cuda:0')
+
+ loss: 0.19320628102868795 
+Parameter value: tensor([[-0.9965,  0.1279],
+        [-0.5369,  0.8232]], device='cuda:0')
+
+ loss: 0.19296490047127007 
+Parameter value: tensor([[-0.9982,  0.1283],
+        [-0.5385,  0.8224]], device='cuda:0')
+
+ loss: 0.19271976202726365 
+Parameter value: tensor([[-0.9999,  0.1288],
+        [-0.5402,  0.8216]], device='cuda:0')
+
+ loss: 0.19249261282384394 
+Parameter value: tensor([[-1.0017,  0.1293],
+        [-0.5419,  0.8207]], device='cuda:0')
+
+ loss: 0.1922520948573947 
+Parameter value: tensor([[-1.0034,  0.1297],
+        [-0.5436,  0.8199]], device='cuda:0')
+
+ loss: 0.19200776163488625 
+Parameter value: tensor([[-1.0051,  0.1302],
+        [-0.5454,  0.8191]], device='cuda:0')
+
+ loss: 0.19177519548684357 
+Parameter value: tensor([[-1.0069,  0.1308],
+        [-0.5471,  0.8182]], device='cuda:0')
+
+ loss: 0.19153308048844336 
+Parameter value: tensor([[-1.0085,  0.1313],
+        [-0.5489,  0.8174]], device='cuda:0')
+
+ loss: 0.1913017425686121 
+Parameter value: tensor([[-1.0102,  0.1318],
+        [-0.5506,  0.8166]], device='cuda:0')
+
+ loss: 0.1910585157573223 
+Parameter value: tensor([[-1.0120,  0.1324],
+        [-0.5523,  0.8158]], device='cuda:0')
+
+ loss: 0.19081322588026522 
+Parameter value: tensor([[-1.0137,  0.1328],
+        [-0.5541,  0.8149]], device='cuda:0')
+
+ loss: 0.19058535993099213 
+Parameter value: tensor([[-1.0154,  0.1334],
+        [-0.5559,  0.8140]], device='cuda:0')
+
+ loss: 0.19034104738384486 
+Parameter value: tensor([[-1.0171,  0.1340],
+        [-0.5576,  0.8131]], device='cuda:0')
+
+ loss: 0.19010186269879342 
+Parameter value: tensor([[-1.0188,  0.1344],
+        [-0.5593,  0.8123]], device='cuda:0')
+
+ loss: 0.18986109513789415 
+Parameter value: tensor([[-1.0205,  0.1350],
+        [-0.5611,  0.8114]], device='cuda:0')
+
+ loss: 0.18960557859390975 
+Parameter value: tensor([[-1.0222,  0.1355],
+        [-0.5629,  0.8105]], device='cuda:0')
+
+ loss: 0.18936342932283878 
+Parameter value: tensor([[-1.0239,  0.1361],
+        [-0.5646,  0.8096]], device='cuda:0')
+
+ loss: 0.18912184368819 
+Parameter value: tensor([[-1.0256,  0.1366],
+        [-0.5664,  0.8088]], device='cuda:0')
+
+ loss: 0.188873646967113 
+Parameter value: tensor([[-1.0273,  0.1372],
+        [-0.5681,  0.8079]], device='cuda:0')
+
+ loss: 0.18864492047578096 
+Parameter value: tensor([[-1.0290,  0.1378],
+        [-0.5699,  0.8070]], device='cuda:0')
+
+ loss: 0.18839128464460372 
+Parameter value: tensor([[-1.0307,  0.1384],
+        [-0.5716,  0.8061]], device='cuda:0')
+
+ loss: 0.18815403580665588 
+Parameter value: tensor([[-1.0324,  0.1390],
+        [-0.5734,  0.8052]], device='cuda:0')
+
+ loss: 0.18789894189685583 
+Parameter value: tensor([[-1.0341,  0.1397],
+        [-0.5752,  0.8043]], device='cuda:0')
+
+ loss: 0.18765946701169015 
+Parameter value: tensor([[-1.0358,  0.1403],
+        [-0.5770,  0.8033]], device='cuda:0')
+
+ loss: 0.1874159974977374 
+Parameter value: tensor([[-1.0375,  0.1409],
+        [-0.5787,  0.8024]], device='cuda:0')
+
+ loss: 0.18717713244259357 
+Parameter value: tensor([[-1.0391,  0.1415],
+        [-0.5805,  0.8015]], device='cuda:0')
+
+ loss: 0.18693756218999624 
+Parameter value: tensor([[-1.0408,  0.1422],
+        [-0.5822,  0.8005]], device='cuda:0')
+
+ loss: 0.18669900186359883 
+Parameter value: tensor([[-1.0425,  0.1428],
+        [-0.5840,  0.7996]], device='cuda:0')
+
+ loss: 0.1864555025473237 
+Parameter value: tensor([[-1.0441,  0.1435],
+        [-0.5858,  0.7986]], device='cuda:0')
+
+ loss: 0.18621189817786216 
+Parameter value: tensor([[-1.0458,  0.1441],
+        [-0.5876,  0.7976]], device='cuda:0')
+
+ loss: 0.18597327638417482 
+Parameter value: tensor([[-1.0475,  0.1448],
+        [-0.5893,  0.7966]], device='cuda:0')
+
+ loss: 0.1857342490926385 
+Parameter value: tensor([[-1.0492,  0.1455],
+        [-0.5911,  0.7956]], device='cuda:0')
+
+ loss: 0.1854882759973407 
+Parameter value: tensor([[-1.0509,  0.1461],
+        [-0.5930,  0.7946]], device='cuda:0')
+
+ loss: 0.1852527767419815 
+Parameter value: tensor([[-1.0526,  0.1468],
+        [-0.5948,  0.7936]], device='cuda:0')
+
+ loss: 0.18500837869942188 
+Parameter value: tensor([[-1.0543,  0.1474],
+        [-0.5966,  0.7925]], device='cuda:0')
+
+ loss: 0.18476916514337063 
+Parameter value: tensor([[-1.0559,  0.1481],
+        [-0.5984,  0.7915]], device='cuda:0')
+
+ loss: 0.18452248740941285 
+Parameter value: tensor([[-1.0576,  0.1487],
+        [-0.6002,  0.7905]], device='cuda:0')
+
+ loss: 0.18429985493421555 
+Parameter value: tensor([[-1.0592,  0.1494],
+        [-0.6020,  0.7894]], device='cuda:0')
+
+ loss: 0.18403016403317451 
+Parameter value: tensor([[-1.0609,  0.1501],
+        [-0.6038,  0.7883]], device='cuda:0')
+
+ loss: 0.18381233233958483 
+Parameter value: tensor([[-1.0626,  0.1508],
+        [-0.6056,  0.7872]], device='cuda:0')
+
+ loss: 0.18356967642903327 
+Parameter value: tensor([[-1.0642,  0.1515],
+        [-0.6074,  0.7862]], device='cuda:0')
+
+ loss: 0.18333656936883927 
+Parameter value: tensor([[-1.0659,  0.1522],
+        [-0.6093,  0.7850]], device='cuda:0')
+
+ loss: 0.183081298135221 
+Parameter value: tensor([[-1.0675,  0.1529],
+        [-0.6111,  0.7840]], device='cuda:0')
+
+ loss: 0.18283797856420278 
+Parameter value: tensor([[-1.0692,  0.1536],
+        [-0.6129,  0.7828]], device='cuda:0')
+
+ loss: 0.1826043825596571 
+Parameter value: tensor([[-1.0709,  0.1543],
+        [-0.6148,  0.7816]], device='cuda:0')
+
+ loss: 0.18234869968146086 
+Parameter value: tensor([[-1.0725,  0.1550],
+        [-0.6166,  0.7805]], device='cuda:0')
+
+ loss: 0.1821138933300972 
+Parameter value: tensor([[-1.0742,  0.1557],
+        [-0.6184,  0.7793]], device='cuda:0')
+
+ loss: 0.1818666310980916 
+Parameter value: tensor([[-1.0759,  0.1564],
+        [-0.6203,  0.7782]], device='cuda:0')
+
+ loss: 0.18161233495920898 
+Parameter value: tensor([[-1.0776,  0.1571],
+        [-0.6221,  0.7770]], device='cuda:0')
+
+ loss: 0.18136883433908224 
+Parameter value: tensor([[-1.0793,  0.1578],
+        [-0.6240,  0.7758]], device='cuda:0')
+
+ loss: 0.18112793043255807 
+Parameter value: tensor([[-1.0810,  0.1585],
+        [-0.6258,  0.7746]], device='cuda:0')
+
+ loss: 0.18087101317942142 
+Parameter value: tensor([[-1.0826,  0.1592],
+        [-0.6277,  0.7735]], device='cuda:0')
+
+ loss: 0.18061400894075633 
+Parameter value: tensor([[-1.0843,  0.1599],
+        [-0.6295,  0.7723]], device='cuda:0')
+
+ loss: 0.18036709483712912 
+Parameter value: tensor([[-1.0860,  0.1605],
+        [-0.6314,  0.7711]], device='cuda:0')
+
+ loss: 0.18013857025653124 
+Parameter value: tensor([[-1.0878,  0.1613],
+        [-0.6332,  0.7698]], device='cuda:0')
+
+ loss: 0.17988564502447843 
+Parameter value: tensor([[-1.0894,  0.1619],
+        [-0.6351,  0.7686]], device='cuda:0')
+
+ loss: 0.17962823435664177 
+Parameter value: tensor([[-1.0911,  0.1627],
+        [-0.6370,  0.7673]], device='cuda:0')
+
+ loss: 0.17937650959938764 
+Parameter value: tensor([[-1.0928,  0.1634],
+        [-0.6389,  0.7660]], device='cuda:0')
+
+ loss: 0.17911412250250577 
+Parameter value: tensor([[-1.0944,  0.1641],
+        [-0.6408,  0.7648]], device='cuda:0')
+
+ loss: 0.17887310180813074 
+Parameter value: tensor([[-1.0961,  0.1648],
+        [-0.6426,  0.7635]], device='cuda:0')
+
+ loss: 0.17862953040748836 
+Parameter value: tensor([[-1.0978,  0.1655],
+        [-0.6445,  0.7622]], device='cuda:0')
+
+ loss: 0.17838015034794807 
+Parameter value: tensor([[-1.0995,  0.1662],
+        [-0.6464,  0.7608]], device='cuda:0')
+
+ loss: 0.17812292706221342 
+Parameter value: tensor([[-1.1012,  0.1669],
+        [-0.6483,  0.7594]], device='cuda:0')
+
+ loss: 0.1778546128422022 
+Parameter value: tensor([[-1.1029,  0.1676],
+        [-0.6502,  0.7581]], device='cuda:0')
+
+ loss: 0.17761200610548258 
+Parameter value: tensor([[-1.1046,  0.1682],
+        [-0.6521,  0.7567]], device='cuda:0')
+
+ loss: 0.1773658649995923 
+Parameter value: tensor([[-1.1062,  0.1689],
+        [-0.6541,  0.7553]], device='cuda:0')
+
+ loss: 0.17709490638226272 
+Parameter value: tensor([[-1.1079,  0.1696],
+        [-0.6560,  0.7539]], device='cuda:0')
+
+ loss: 0.1768541032448411 
+Parameter value: tensor([[-1.1096,  0.1703],
+        [-0.6578,  0.7525]], device='cuda:0')
+
+ loss: 0.17659322842955588 
+Parameter value: tensor([[-1.1113,  0.1709],
+        [-0.6597,  0.7511]], device='cuda:0')
+
+ loss: 0.17634704243391752 
+Parameter value: tensor([[-1.1130,  0.1716],
+        [-0.6616,  0.7497]], device='cuda:0')
+
+ loss: 0.17607675204053522 
+Parameter value: tensor([[-1.1147,  0.1723],
+        [-0.6635,  0.7483]], device='cuda:0')
+
+ loss: 0.17581716515123844 
+Parameter value: tensor([[-1.1164,  0.1730],
+        [-0.6654,  0.7468]], device='cuda:0')
+
+ loss: 0.17557363342493773 
+Parameter value: tensor([[-1.1181,  0.1737],
+        [-0.6673,  0.7454]], device='cuda:0')
+
+ loss: 0.17530204160138965 
+Parameter value: tensor([[-1.1198,  0.1743],
+        [-0.6692,  0.7439]], device='cuda:0')
+
+ loss: 0.17504443358629942 
+Parameter value: tensor([[-1.1215,  0.1750],
+        [-0.6711,  0.7424]], device='cuda:0')
+
+ loss: 0.17480059657245875 
+Parameter value: tensor([[-1.1232,  0.1757],
+        [-0.6730,  0.7409]], device='cuda:0')
+
+ loss: 0.17452398845925926 
+Parameter value: tensor([[-1.1248,  0.1763],
+        [-0.6749,  0.7394]], device='cuda:0')
+
+ loss: 0.17425541775301098 
+Parameter value: tensor([[-1.1265,  0.1769],
+        [-0.6768,  0.7379]], device='cuda:0')
+
+ loss: 0.17399612553417682 
+Parameter value: tensor([[-1.1282,  0.1776],
+        [-0.6787,  0.7364]], device='cuda:0')
+
+ loss: 0.17374030109494926 
+Parameter value: tensor([[-1.1299,  0.1783],
+        [-0.6805,  0.7349]], device='cuda:0')
+
+ loss: 0.1734729596413672 
+Parameter value: tensor([[-1.1316,  0.1789],
+        [-0.6824,  0.7334]], device='cuda:0')
+
+ loss: 0.17321306746453047 
+Parameter value: tensor([[-1.1333,  0.1795],
+        [-0.6843,  0.7319]], device='cuda:0')
+
+ loss: 0.17296001687645912 
+Parameter value: tensor([[-1.1351,  0.1801],
+        [-0.6861,  0.7303]], device='cuda:0')
+
+ loss: 0.17266269121319056 
+Parameter value: tensor([[-1.1367,  0.1807],
+        [-0.6880,  0.7288]], device='cuda:0')
+
+ loss: 0.1724017433822155 
+Parameter value: tensor([[-1.1384,  0.1813],
+        [-0.6899,  0.7272]], device='cuda:0')
+
+ loss: 0.17213647514581681 
+Parameter value: tensor([[-1.1402,  0.1818],
+        [-0.6919,  0.7255]], device='cuda:0')
+
+ loss: 0.17185454461723565 
+Parameter value: tensor([[-1.1419,  0.1824],
+        [-0.6938,  0.7239]], device='cuda:0')
+
+ loss: 0.1716030984185636 
+Parameter value: tensor([[-1.1436,  0.1830],
+        [-0.6958,  0.7221]], device='cuda:0')
+
+ loss: 0.17131097419187427 
+Parameter value: tensor([[-1.1454,  0.1835],
+        [-0.6976,  0.7205]], device='cuda:0')
+
+ loss: 0.1710297042503953 
+Parameter value: tensor([[-1.1471,  0.1840],
+        [-0.6996,  0.7188]], device='cuda:0')
+
+ loss: 0.1707591070793569 
+Parameter value: tensor([[-1.1488,  0.1846],
+        [-0.7016,  0.7170]], device='cuda:0')
+
+ loss: 0.17048490680754186 
+Parameter value: tensor([[-1.1506,  0.1851],
+        [-0.7035,  0.7153]], device='cuda:0')
+
+ loss: 0.17017388017848134 
+Parameter value: tensor([[-1.1523,  0.1856],
+        [-0.7055,  0.7135]], device='cuda:0')
+
+ loss: 0.16988342087715863 
+Parameter value: tensor([[-1.1541,  0.1862],
+        [-0.7075,  0.7117]], device='cuda:0')
+
+ loss: 0.16958665903657674 
+Parameter value: tensor([[-1.1558,  0.1867],
+        [-0.7094,  0.7099]], device='cuda:0')
+
+ loss: 0.16932697240263223 
+Parameter value: tensor([[-1.1576,  0.1872],
+        [-0.7114,  0.7081]], device='cuda:0')
+
+ loss: 0.1690277185291052 
+Parameter value: tensor([[-1.1594,  0.1877],
+        [-0.7133,  0.7062]], device='cuda:0')
+
+ loss: 0.1687310954555869 
+Parameter value: tensor([[-1.1612,  0.1882],
+        [-0.7153,  0.7044]], device='cuda:0')
+
+ loss: 0.1684418335556984 
+Parameter value: tensor([[-1.1629,  0.1886],
+        [-0.7173,  0.7025]], device='cuda:0')
+
+ loss: 0.16812756210565566 
+Parameter value: tensor([[-1.1647,  0.1891],
+        [-0.7192,  0.7006]], device='cuda:0')
+
+ loss: 0.1678646532818675 
+Parameter value: tensor([[-1.1666,  0.1896],
+        [-0.7212,  0.6986]], device='cuda:0')
+
+ loss: 0.16755595840513707 
+Parameter value: tensor([[-1.1684,  0.1900],
+        [-0.7232,  0.6967]], device='cuda:0')
+
+ loss: 0.1672450087964535 
+Parameter value: tensor([[-1.1702,  0.1905],
+        [-0.7252,  0.6947]], device='cuda:0')
+
+ loss: 0.16694891368970274 
+Parameter value: tensor([[-1.1720,  0.1909],
+        [-0.7273,  0.6927]], device='cuda:0')
+
+ loss: 0.16664268486201764 
+Parameter value: tensor([[-1.1738,  0.1913],
+        [-0.7293,  0.6907]], device='cuda:0')
+
+ loss: 0.16634630206972362 
+Parameter value: tensor([[-1.1756,  0.1918],
+        [-0.7313,  0.6886]], device='cuda:0')
+
+ loss: 0.1660181362181902 
+Parameter value: tensor([[-1.1773,  0.1921],
+        [-0.7333,  0.6865]], device='cuda:0')
+
+ loss: 0.1657071248628199 
+Parameter value: tensor([[-1.1791,  0.1925],
+        [-0.7354,  0.6844]], device='cuda:0')
+
+ loss: 0.1654017386958003 
+Parameter value: tensor([[-1.1809,  0.1929],
+        [-0.7374,  0.6823]], device='cuda:0')
+
+ loss: 0.16509372238069772 
+Parameter value: tensor([[-1.1827,  0.1933],
+        [-0.7394,  0.6802]], device='cuda:0')
+
+ loss: 0.16478388300165533 
+Parameter value: tensor([[-1.1845,  0.1936],
+        [-0.7414,  0.6780]], device='cuda:0')
+
+ loss: 0.16448620902374386 
+Parameter value: tensor([[-1.1863,  0.1939],
+        [-0.7434,  0.6759]], device='cuda:0')
+
+ loss: 0.16418656511232257 
+Parameter value: tensor([[-1.1881,  0.1943],
+        [-0.7455,  0.6737]], device='cuda:0')
+
+ loss: 0.16387426638975738 
+Parameter value: tensor([[-1.1898,  0.1946],
+        [-0.7474,  0.6715]], device='cuda:0')
+
+ loss: 0.16355533078312873 
+Parameter value: tensor([[-1.1916,  0.1949],
+        [-0.7495,  0.6693]], device='cuda:0')
+
+ loss: 0.1632544902153313 
+Parameter value: tensor([[-1.1934,  0.1952],
+        [-0.7515,  0.6671]], device='cuda:0')
+
+ loss: 0.16293918788433076 
+Parameter value: tensor([[-1.1952,  0.1954],
+        [-0.7535,  0.6649]], device='cuda:0')
+
+ loss: 0.16262080650776625 
+Parameter value: tensor([[-1.1969,  0.1957],
+        [-0.7556,  0.6627]], device='cuda:0')
+
+ loss: 0.1622937897220254 
+Parameter value: tensor([[-1.1987,  0.1960],
+        [-0.7576,  0.6604]], device='cuda:0')
+
+ loss: 0.1620028163306415 
+Parameter value: tensor([[-1.2005,  0.1962],
+        [-0.7596,  0.6582]], device='cuda:0')
+
+ loss: 0.16167530920356513 
+Parameter value: tensor([[-1.2022,  0.1964],
+        [-0.7617,  0.6558]], device='cuda:0')
+
+ loss: 0.1613571153022349 
+Parameter value: tensor([[-1.2040,  0.1966],
+        [-0.7637,  0.6536]], device='cuda:0')
+
+ loss: 0.16103586042299867 
+Parameter value: tensor([[-1.2058,  0.1968],
+        [-0.7657,  0.6513]], device='cuda:0')
+
+ loss: 0.16070284629240633 
+Parameter value: tensor([[-1.2076,  0.1970],
+        [-0.7677,  0.6490]], device='cuda:0')
+
+ loss: 0.16040004193782806 
+Parameter value: tensor([[-1.2095,  0.1972],
+        [-0.7698,  0.6466]], device='cuda:0')
+
+ loss: 0.16005582055076956 
+Parameter value: tensor([[-1.2113,  0.1973],
+        [-0.7718,  0.6443]], device='cuda:0')
+
+ loss: 0.15973055474460124 
+Parameter value: tensor([[-1.2131,  0.1975],
+        [-0.7738,  0.6420]], device='cuda:0')
+
+ loss: 0.1593961838632822 
+Parameter value: tensor([[-1.2149,  0.1977],
+        [-0.7758,  0.6396]], device='cuda:0')
+
+ loss: 0.1590529192239046 
+Parameter value: tensor([[-1.2167,  0.1978],
+        [-0.7778,  0.6373]], device='cuda:0')
+
+ loss: 0.1587318515405059 
+Parameter value: tensor([[-1.2184,  0.1980],
+        [-0.7798,  0.6348]], device='cuda:0')
+
+ loss: 0.15840180311352015 
+Parameter value: tensor([[-1.2202,  0.1981],
+        [-0.7817,  0.6325]], device='cuda:0')
+
+ loss: 0.1580609856173396 
+Parameter value: tensor([[-1.2220,  0.1982],
+        [-0.7837,  0.6301]], device='cuda:0')
+
+ loss: 0.15770721761509776 
+Parameter value: tensor([[-1.2237,  0.1983],
+        [-0.7857,  0.6276]], device='cuda:0')
+
+ loss: 0.15736677804961802 
+Parameter value: tensor([[-1.2256,  0.1985],
+        [-0.7877,  0.6251]], device='cuda:0')
+
+ loss: 0.15703177619725467 
+Parameter value: tensor([[-1.2274,  0.1986],
+        [-0.7896,  0.6226]], device='cuda:0')
+
+ loss: 0.15666801752522588 
+Parameter value: tensor([[-1.2291,  0.1986],
+        [-0.7917,  0.6201]], device='cuda:0')
+
+ loss: 0.15634099785238503 
+Parameter value: tensor([[-1.2309,  0.1987],
+        [-0.7937,  0.6175]], device='cuda:0')
+
+ loss: 0.15595536828041076 
+Parameter value: tensor([[-1.2326,  0.1987],
+        [-0.7957,  0.6150]], device='cuda:0')
+
+ loss: 0.1556247968226671 
+Parameter value: tensor([[-1.2344,  0.1988],
+        [-0.7977,  0.6124]], device='cuda:0')
+
+ loss: 0.15523525588214399 
+Parameter value: tensor([[-1.2362,  0.1988],
+        [-0.7997,  0.6098]], device='cuda:0')
+
+ loss: 0.15490013724192978 
+Parameter value: tensor([[-1.2380,  0.1988],
+        [-0.8017,  0.6072]], device='cuda:0')
+
+ loss: 0.15453592985868453 
+Parameter value: tensor([[-1.2398,  0.1988],
+        [-0.8037,  0.6046]], device='cuda:0')
+
+ loss: 0.15419751638546586 
+Parameter value: tensor([[-1.2416,  0.1989],
+        [-0.8057,  0.6020]], device='cuda:0')
+
+ loss: 0.15383413545787333 
+Parameter value: tensor([[-1.2434,  0.1989],
+        [-0.8077,  0.5993]], device='cuda:0')
+
+ loss: 0.15348829505965114 
+Parameter value: tensor([[-1.2452,  0.1989],
+        [-0.8096,  0.5967]], device='cuda:0')
+
+ loss: 0.1530839222483337 
+Parameter value: tensor([[-1.2469,  0.1989],
+        [-0.8116,  0.5941]], device='cuda:0')
+
+ loss: 0.15273236548528074 
+Parameter value: tensor([[-1.2487,  0.1989],
+        [-0.8136,  0.5914]], device='cuda:0')
+
+ loss: 0.1523736810311675 
+Parameter value: tensor([[-1.2505,  0.1988],
+        [-0.8156,  0.5888]], device='cuda:0')
+
+ loss: 0.15200829608365893 
+Parameter value: tensor([[-1.2523,  0.1988],
+        [-0.8176,  0.5861]], device='cuda:0')
+
+ loss: 0.1516230681911111 
+Parameter value: tensor([[-1.2541,  0.1987],
+        [-0.8195,  0.5834]], device='cuda:0')
+
+ loss: 0.15124142384156586 
+Parameter value: tensor([[-1.2559,  0.1987],
+        [-0.8214,  0.5807]], device='cuda:0')
+
+ loss: 0.1508771943859756 
+Parameter value: tensor([[-1.2577,  0.1986],
+        [-0.8233,  0.5780]], device='cuda:0')
+
+ loss: 0.1504957966506481 
+Parameter value: tensor([[-1.2595,  0.1986],
+        [-0.8252,  0.5753]], device='cuda:0')
+
+ loss: 0.1501374171115458 
+Parameter value: tensor([[-1.2613,  0.1985],
+        [-0.8271,  0.5726]], device='cuda:0')
+
+ loss: 0.14975006664171814 
+Parameter value: tensor([[-1.2631,  0.1985],
+        [-0.8290,  0.5699]], device='cuda:0')
+
+ loss: 0.14935923535376788 
+Parameter value: tensor([[-1.2648,  0.1984],
+        [-0.8308,  0.5671]], device='cuda:0')
+
+ loss: 0.14898985549807547 
+Parameter value: tensor([[-1.2666,  0.1983],
+        [-0.8327,  0.5644]], device='cuda:0')
+
+ loss: 0.1486143765039742 
+Parameter value: tensor([[-1.2683,  0.1982],
+        [-0.8346,  0.5617]], device='cuda:0')
+
+ loss: 0.14823048729449512 
+Parameter value: tensor([[-1.2701,  0.1981],
+        [-0.8364,  0.5590]], device='cuda:0')
+
+ loss: 0.1478419710882008 
+Parameter value: tensor([[-1.2718,  0.1980],
+        [-0.8383,  0.5562]], device='cuda:0')
+
+ loss: 0.14745888132601975 
+Parameter value: tensor([[-1.2735,  0.1979],
+        [-0.8401,  0.5535]], device='cuda:0')
+
+ loss: 0.14710120912641286 
+Parameter value: tensor([[-1.2752,  0.1978],
+        [-0.8419,  0.5507]], device='cuda:0')
+
+ loss: 0.1467282956466079 
+Parameter value: tensor([[-1.2770,  0.1976],
+        [-0.8437,  0.5479]], device='cuda:0')
+
+ loss: 0.14636288564652206 
+Parameter value: tensor([[-1.2787,  0.1975],
+        [-0.8456,  0.5451]], device='cuda:0')
+
+ loss: 0.1459915678948164 
+Parameter value: tensor([[-1.2805,  0.1973],
+        [-0.8473,  0.5423]], device='cuda:0')
+
+ loss: 0.14562229691073297 
+Parameter value: tensor([[-1.2822,  0.1972],
+        [-0.8492,  0.5395]], device='cuda:0')
+
+ loss: 0.14523177640512586 
+Parameter value: tensor([[-1.2839,  0.1970],
+        [-0.8509,  0.5366]], device='cuda:0')
+
+ loss: 0.14484924757853151 
+Parameter value: tensor([[-1.2855,  0.1968],
+        [-0.8527,  0.5338]], device='cuda:0')
+
+ loss: 0.14448139732703566 
+Parameter value: tensor([[-1.2873,  0.1966],
+        [-0.8544,  0.5310]], device='cuda:0')
+
+ loss: 0.14410374034196138 
+Parameter value: tensor([[-1.2889,  0.1964],
+        [-0.8562,  0.5281]], device='cuda:0')
+
+ loss: 0.14373581092804671 
+Parameter value: tensor([[-1.2906,  0.1961],
+        [-0.8579,  0.5252]], device='cuda:0')
+
+ loss: 0.1433447204530239 
+Parameter value: tensor([[-1.2923,  0.1959],
+        [-0.8596,  0.5224]], device='cuda:0')
+
+ loss: 0.14297711504623295 
+Parameter value: tensor([[-1.2940,  0.1957],
+        [-0.8613,  0.5195]], device='cuda:0')
+
+ loss: 0.1425831913948059 
+Parameter value: tensor([[-1.2957,  0.1954],
+        [-0.8631,  0.5166]], device='cuda:0')
+
+ loss: 0.14220090080052614 
+Parameter value: tensor([[-1.2974,  0.1952],
+        [-0.8648,  0.5137]], device='cuda:0')
+
+ loss: 0.14182048421353102 
+Parameter value: tensor([[-1.2991,  0.1949],
+        [-0.8665,  0.5108]], device='cuda:0')
+
+ loss: 0.14141489220783116 
+Parameter value: tensor([[-1.3007,  0.1946],
+        [-0.8681,  0.5079]], device='cuda:0')
+
+ loss: 0.14103594673797487 
+Parameter value: tensor([[-1.3024,  0.1943],
+        [-0.8698,  0.5050]], device='cuda:0')
+
+ loss: 0.14066409254446627 
+Parameter value: tensor([[-1.3040,  0.1941],
+        [-0.8713,  0.5021]], device='cuda:0')
+
+ loss: 0.14027381809428335 
+Parameter value: tensor([[-1.3057,  0.1938],
+        [-0.8730,  0.4992]], device='cuda:0')
+
+ loss: 0.1398855053819716 
+Parameter value: tensor([[-1.3073,  0.1935],
+        [-0.8745,  0.4963]], device='cuda:0')
+
+ loss: 0.13948145816102625 
+Parameter value: tensor([[-1.3089,  0.1932],
+        [-0.8760,  0.4934]], device='cuda:0')
+
+ loss: 0.13908501146361232 
+Parameter value: tensor([[-1.3105,  0.1929],
+        [-0.8775,  0.4906]], device='cuda:0')
+
+ loss: 0.13869865210726856 
+Parameter value: tensor([[-1.3121,  0.1926],
+        [-0.8789,  0.4877]], device='cuda:0')
+
+ loss: 0.13830380458384753 
+Parameter value: tensor([[-1.3137,  0.1922],
+        [-0.8804,  0.4848]], device='cuda:0')
+
+ loss: 0.13790921764448286 
+Parameter value: tensor([[-1.3152,  0.1919],
+        [-0.8817,  0.4818]], device='cuda:0')
+
+ loss: 0.137521465215832 
+Parameter value: tensor([[-1.3169,  0.1916],
+        [-0.8831,  0.4789]], device='cuda:0')
+
+ loss: 0.13713056715205313 
+Parameter value: tensor([[-1.3185,  0.1912],
+        [-0.8845,  0.4760]], device='cuda:0')
+
+ loss: 0.1367336961440742 
+Parameter value: tensor([[-1.3200,  0.1908],
+        [-0.8858,  0.4731]], device='cuda:0')
+
+ loss: 0.13633227283135058 
+Parameter value: tensor([[-1.3215,  0.1904],
+        [-0.8871,  0.4702]], device='cuda:0')
+
+ loss: 0.1359338100068271 
+Parameter value: tensor([[-1.3231,  0.1900],
+        [-0.8884,  0.4672]], device='cuda:0')
+
+ loss: 0.13554923562332988 
+Parameter value: tensor([[-1.3246,  0.1896],
+        [-0.8896,  0.4643]], device='cuda:0')
+
+ loss: 0.1351720966398716 
+Parameter value: tensor([[-1.3261,  0.1892],
+        [-0.8908,  0.4614]], device='cuda:0')
+
+ loss: 0.13475168244913222 
+Parameter value: tensor([[-1.3276,  0.1887],
+        [-0.8921,  0.4584]], device='cuda:0')
+
+ loss: 0.13437416488304735 
+Parameter value: tensor([[-1.3291,  0.1883],
+        [-0.8932,  0.4555]], device='cuda:0')
+
+ loss: 0.13396295933052899 
+Parameter value: tensor([[-1.3306,  0.1878],
+        [-0.8943,  0.4526]], device='cuda:0')
+
+ loss: 0.1335718863643706 
+Parameter value: tensor([[-1.3321,  0.1873],
+        [-0.8955,  0.4496]], device='cuda:0')
+
+ loss: 0.13317531868815422 
+Parameter value: tensor([[-1.3336,  0.1868],
+        [-0.8965,  0.4467]], device='cuda:0')
+
+ loss: 0.1327714846469462 
+Parameter value: tensor([[-1.3350,  0.1864],
+        [-0.8975,  0.4437]], device='cuda:0')
+
+ loss: 0.13236218048259615 
+Parameter value: tensor([[-1.3365,  0.1859],
+        [-0.8984,  0.4408]], device='cuda:0')
+
+ loss: 0.13193912692368032 
+Parameter value: tensor([[-1.3378,  0.1854],
+        [-0.8992,  0.4378]], device='cuda:0')
+
+ loss: 0.1315303908661008 
+Parameter value: tensor([[-1.3392,  0.1849],
+        [-0.9001,  0.4349]], device='cuda:0')
+
+ loss: 0.1311194585636258 
+Parameter value: tensor([[-1.3406,  0.1844],
+        [-0.9010,  0.4320]], device='cuda:0')
+
+ loss: 0.13071450181305408 
+Parameter value: tensor([[-1.3420,  0.1840],
+        [-0.9017,  0.4290]], device='cuda:0')
+
+ loss: 0.13030778858810663 
+Parameter value: tensor([[-1.3433,  0.1835],
+        [-0.9024,  0.4261]], device='cuda:0')
+
+ loss: 0.12988945012912154 
+Parameter value: tensor([[-1.3447,  0.1830],
+        [-0.9031,  0.4231]], device='cuda:0')
+
+ loss: 0.12949265548959374 
+Parameter value: tensor([[-1.3461,  0.1825],
+        [-0.9037,  0.4201]], device='cuda:0')
+
+ loss: 0.1290893701836467 
+Parameter value: tensor([[-1.3474,  0.1820],
+        [-0.9044,  0.4171]], device='cuda:0')
+
+ loss: 0.12866375409066677 
+Parameter value: tensor([[-1.3487,  0.1814],
+        [-0.9049,  0.4141]], device='cuda:0')
+
+ loss: 0.12826598659157754 
+Parameter value: tensor([[-1.3500,  0.1809],
+        [-0.9055,  0.4112]], device='cuda:0')
+
+ loss: 0.12784443916752936 
+Parameter value: tensor([[-1.3513,  0.1803],
+        [-0.9060,  0.4082]], device='cuda:0')
+
+ loss: 0.12744630947709085 
+Parameter value: tensor([[-1.3526,  0.1798],
+        [-0.9064,  0.4051]], device='cuda:0')
+
+ loss: 0.1270456320606172 
+Parameter value: tensor([[-1.3539,  0.1792],
+        [-0.9068,  0.4021]], device='cuda:0')
+
+ loss: 0.12663529757410288 
+Parameter value: tensor([[-1.3552,  0.1786],
+        [-0.9072,  0.3991]], device='cuda:0')
+
+ loss: 0.1262245430611074 
+Parameter value: tensor([[-1.3564,  0.1780],
+        [-0.9075,  0.3962]], device='cuda:0')
+
+ loss: 0.1258142901584506 
+Parameter value: tensor([[-1.3576,  0.1774],
+        [-0.9077,  0.3932]], device='cuda:0')
+
+ loss: 0.1254185258410871 
+Parameter value: tensor([[-1.3588,  0.1768],
+        [-0.9080,  0.3902]], device='cuda:0')
+
+ loss: 0.12500286046415568 
+Parameter value: tensor([[-1.3599,  0.1761],
+        [-0.9082,  0.3872]], device='cuda:0')
+
+ loss: 0.12460484709590673 
+Parameter value: tensor([[-1.3611,  0.1755],
+        [-0.9083,  0.3842]], device='cuda:0')
+
+ loss: 0.12418946027755737 
+Parameter value: tensor([[-1.3622,  0.1748],
+        [-0.9084,  0.3811]], device='cuda:0')
+
+ loss: 0.12376263262704015 
+Parameter value: tensor([[-1.3633,  0.1741],
+        [-0.9085,  0.3781]], device='cuda:0')
+
+ loss: 0.12337760562077164 
+Parameter value: tensor([[-1.3645,  0.1735],
+        [-0.9085,  0.3751]], device='cuda:0')
+
+ loss: 0.12294267816469073 
+Parameter value: tensor([[-1.3655,  0.1728],
+        [-0.9084,  0.3721]], device='cuda:0')
+
+ loss: 0.12254426991567016 
+Parameter value: tensor([[-1.3667,  0.1721],
+        [-0.9083,  0.3691]], device='cuda:0')
+
+ loss: 0.12212247224524617 
+Parameter value: tensor([[-1.3677,  0.1714],
+        [-0.9082,  0.3661]], device='cuda:0')
+
+ loss: 0.12170708021149039 
+Parameter value: tensor([[-1.3688,  0.1707],
+        [-0.9081,  0.3631]], device='cuda:0')
+
+ loss: 0.12128301486372947 
+Parameter value: tensor([[-1.3698,  0.1700],
+        [-0.9079,  0.3602]], device='cuda:0')
+
+ loss: 0.12085791677236557 
+Parameter value: tensor([[-1.3709,  0.1692],
+        [-0.9078,  0.3571]], device='cuda:0')
+
+ loss: 0.12042757449671626 
+Parameter value: tensor([[-1.3719,  0.1685],
+        [-0.9076,  0.3541]], device='cuda:0')
+
+ loss: 0.12001119861379266 
+Parameter value: tensor([[-1.3730,  0.1677],
+        [-0.9074,  0.3512]], device='cuda:0')
+
+ loss: 0.11959318779408931 
+Parameter value: tensor([[-1.3740,  0.1670],
+        [-0.9072,  0.3482]], device='cuda:0')
+
+ loss: 0.11915975129231811 
+Parameter value: tensor([[-1.3750,  0.1663],
+        [-0.9069,  0.3452]], device='cuda:0')
+
+ loss: 0.1187225895933807 
+Parameter value: tensor([[-1.3759,  0.1656],
+        [-0.9066,  0.3422]], device='cuda:0')
+
+ loss: 0.11827979264780879 
+Parameter value: tensor([[-1.3769,  0.1648],
+        [-0.9062,  0.3392]], device='cuda:0')
+
+ loss: 0.11784747783094644 
+Parameter value: tensor([[-1.3779,  0.1640],
+        [-0.9059,  0.3362]], device='cuda:0')
+
+ loss: 0.11740736654028297 
+Parameter value: tensor([[-1.3788,  0.1633],
+        [-0.9054,  0.3332]], device='cuda:0')
+
+ loss: 0.11696648485958576 
+Parameter value: tensor([[-1.3797,  0.1624],
+        [-0.9050,  0.3302]], device='cuda:0')
+
+ loss: 0.11653455179184675 
+Parameter value: tensor([[-1.3806,  0.1617],
+        [-0.9045,  0.3272]], device='cuda:0')
+
+ loss: 0.11610008925199508 
+Parameter value: tensor([[-1.3815,  0.1609],
+        [-0.9040,  0.3241]], device='cuda:0')
+
+ loss: 0.11565559059381485 
+Parameter value: tensor([[-1.3824,  0.1600],
+        [-0.9034,  0.3211]], device='cuda:0')
+
+ loss: 0.1152144574560225 
+Parameter value: tensor([[-1.3833,  0.1592],
+        [-0.9029,  0.3181]], device='cuda:0')
+
+ loss: 0.11476985821500421 
+Parameter value: tensor([[-1.3842,  0.1584],
+        [-0.9023,  0.3151]], device='cuda:0')
+
+ loss: 0.11432872097939253 
+Parameter value: tensor([[-1.3850,  0.1575],
+        [-0.9017,  0.3121]], device='cuda:0')
+
+ loss: 0.1138808230869472 
+Parameter value: tensor([[-1.3858,  0.1567],
+        [-0.9011,  0.3091]], device='cuda:0')
+
+ loss: 0.11343501908704638 
+Parameter value: tensor([[-1.3867,  0.1558],
+        [-0.9003,  0.3060]], device='cuda:0')
+
+ loss: 0.11298744790256024 
+Parameter value: tensor([[-1.3875,  0.1550],
+        [-0.8996,  0.3030]], device='cuda:0')
+
+ loss: 0.11253184145316482 
+Parameter value: tensor([[-1.3883,  0.1541],
+        [-0.8989,  0.2999]], device='cuda:0')
+
+ loss: 0.11206671660766006 
+Parameter value: tensor([[-1.3891,  0.1532],
+        [-0.8980,  0.2969]], device='cuda:0')
+
+ loss: 0.11159286387264729 
+Parameter value: tensor([[-1.3898,  0.1523],
+        [-0.8972,  0.2939]], device='cuda:0')
+
+ loss: 0.11112891416996717 
+Parameter value: tensor([[-1.3906,  0.1514],
+        [-0.8964,  0.2909]], device='cuda:0')
+
+ loss: 0.11064764885231852 
+Parameter value: tensor([[-1.3913,  0.1504],
+        [-0.8956,  0.2878]], device='cuda:0')
+
+ loss: 0.1101639986038208 
+Parameter value: tensor([[-1.3920,  0.1494],
+        [-0.8948,  0.2848]], device='cuda:0')
+
+ loss: 0.10970653528347611 
+Parameter value: tensor([[-1.3928,  0.1485],
+        [-0.8940,  0.2818]], device='cuda:0')
+
+ loss: 0.10923110758885742 
+Parameter value: tensor([[-1.3935,  0.1476],
+        [-0.8931,  0.2788]], device='cuda:0')
+
+ loss: 0.10873972196131945 
+Parameter value: tensor([[-1.3942,  0.1465],
+        [-0.8923,  0.2758]], device='cuda:0')
+
+ loss: 0.10826558656990529 
+Parameter value: tensor([[-1.3949,  0.1455],
+        [-0.8915,  0.2728]], device='cuda:0')
+
+ loss: 0.10778195261955262 
+Parameter value: tensor([[-1.3955,  0.1445],
+        [-0.8907,  0.2697]], device='cuda:0')
+
+ loss: 0.10730821127071977 
+Parameter value: tensor([[-1.3962,  0.1435],
+        [-0.8899,  0.2667]], device='cuda:0')
+
+ loss: 0.1068522073328495 
+Parameter value: tensor([[-1.3970,  0.1424],
+        [-0.8890,  0.2637]], device='cuda:0')
+
+ loss: 0.10638371100649238 
+Parameter value: tensor([[-1.3976,  0.1415],
+        [-0.8883,  0.2607]], device='cuda:0')
+
+ loss: 0.10591960959136486 
+Parameter value: tensor([[-1.3983,  0.1404],
+        [-0.8874,  0.2577]], device='cuda:0')
+
+ loss: 0.10542595973238349 
+Parameter value: tensor([[-1.3990,  0.1394],
+        [-0.8866,  0.2547]], device='cuda:0')
+
+ loss: 0.10495610777288675 
+Parameter value: tensor([[-1.3996,  0.1384],
+        [-0.8857,  0.2517]], device='cuda:0')
+
+ loss: 0.10446758847683668 
+Parameter value: tensor([[-1.4003,  0.1373],
+        [-0.8849,  0.2487]], device='cuda:0')
+
+ loss: 0.10398174766451121 
+Parameter value: tensor([[-1.4009,  0.1362],
+        [-0.8840,  0.2457]], device='cuda:0')
+
+ loss: 0.10349225578829646 
+Parameter value: tensor([[-1.4014,  0.1351],
+        [-0.8832,  0.2427]], device='cuda:0')
+
+ loss: 0.10302215414121747 
+Parameter value: tensor([[-1.4021,  0.1340],
+        [-0.8824,  0.2397]], device='cuda:0')
+
+ loss: 0.10254372637718916 
+Parameter value: tensor([[-1.4027,  0.1328],
+        [-0.8816,  0.2367]], device='cuda:0')
+
+ loss: 0.1020418823696673 
+Parameter value: tensor([[-1.4032,  0.1317],
+        [-0.8808,  0.2337]], device='cuda:0')
+
+ loss: 0.1015888188034296 
+Parameter value: tensor([[-1.4039,  0.1305],
+        [-0.8800,  0.2307]], device='cuda:0')
+
+ loss: 0.10108648017048835 
+Parameter value: tensor([[-1.4044,  0.1293],
+        [-0.8791,  0.2277]], device='cuda:0')
+
+ loss: 0.10061242654919625 
+Parameter value: tensor([[-1.4050,  0.1282],
+        [-0.8783,  0.2248]], device='cuda:0')
+
+ loss: 0.10013082032091916 
+Parameter value: tensor([[-1.4056,  0.1270],
+        [-0.8775,  0.2218]], device='cuda:0')
+
+ loss: 0.09966039163991809 
+Parameter value: tensor([[-1.4062,  0.1259],
+        [-0.8768,  0.2188]], device='cuda:0')
+
+ loss: 0.09919100068509579 
+Parameter value: tensor([[-1.4068,  0.1247],
+        [-0.8760,  0.2158]], device='cuda:0')
+
+ loss: 0.09872430339455604 
+Parameter value: tensor([[-1.4074,  0.1236],
+        [-0.8752,  0.2128]], device='cuda:0')
+
+ loss: 0.09825694067403674 
+Parameter value: tensor([[-1.4079,  0.1223],
+        [-0.8744,  0.2099]], device='cuda:0')
+
+ loss: 0.09778105518780648 
+Parameter value: tensor([[-1.4085,  0.1211],
+        [-0.8736,  0.2069]], device='cuda:0')
+
+ loss: 0.09729884117841721 
+Parameter value: tensor([[-1.4090,  0.1199],
+        [-0.8729,  0.2039]], device='cuda:0')
+
+ loss: 0.09682372398674488 
+Parameter value: tensor([[-1.4095,  0.1186],
+        [-0.8720,  0.2010]], device='cuda:0')
+
+ loss: 0.09635741766542197 
+Parameter value: tensor([[-1.4101,  0.1175],
+        [-0.8712,  0.1980]], device='cuda:0')
+
+ loss: 0.095863644964993 
+Parameter value: tensor([[-1.4106,  0.1162],
+        [-0.8705,  0.1951]], device='cuda:0')
+
+ loss: 0.09537753025069833 
+Parameter value: tensor([[-1.4111,  0.1150],
+        [-0.8697,  0.1921]], device='cuda:0')
+
+ loss: 0.09491925155743956 
+Parameter value: tensor([[-1.4117,  0.1137],
+        [-0.8690,  0.1892]], device='cuda:0')
+
+ loss: 0.09445647513493896 
+Parameter value: tensor([[-1.4122,  0.1124],
+        [-0.8683,  0.1862]], device='cuda:0')
+
+ loss: 0.09397678570821881 
+Parameter value: tensor([[-1.4127,  0.1112],
+        [-0.8676,  0.1833]], device='cuda:0')
+
+ loss: 0.09352775616571307 
+Parameter value: tensor([[-1.4133,  0.1098],
+        [-0.8669,  0.1804]], device='cuda:0')
+
+ loss: 0.09306816393509507 
+Parameter value: tensor([[-1.4138,  0.1085],
+        [-0.8663,  0.1774]], device='cuda:0')
+
+ loss: 0.09260532609187067 
+Parameter value: tensor([[-1.4143,  0.1072],
+        [-0.8657,  0.1745]], device='cuda:0')
+
+ loss: 0.09213421205058694 
+Parameter value: tensor([[-1.4147,  0.1059],
+        [-0.8652,  0.1716]], device='cuda:0')
+
+ loss: 0.09166740560904145 
+Parameter value: tensor([[-1.4152,  0.1046],
+        [-0.8647,  0.1686]], device='cuda:0')
+
+ loss: 0.0912105563096702 
+Parameter value: tensor([[-1.4156,  0.1032],
+        [-0.8640,  0.1657]], device='cuda:0')
+
+ loss: 0.09075443027541041 
+Parameter value: tensor([[-1.4161,  0.1018],
+        [-0.8635,  0.1628]], device='cuda:0')
+
+ loss: 0.09031775491312147 
+Parameter value: tensor([[-1.4166,  0.1005],
+        [-0.8630,  0.1599]], device='cuda:0')
+
+ loss: 0.08985482230782509 
+Parameter value: tensor([[-1.4171,  0.0990],
+        [-0.8625,  0.1570]], device='cuda:0')
+
+ loss: 0.08940068418160081 
+Parameter value: tensor([[-1.4176,  0.0976],
+        [-0.8620,  0.1541]], device='cuda:0')
+
+ loss: 0.08895192900672555 
+Parameter value: tensor([[-1.4181,  0.0962],
+        [-0.8615,  0.1512]], device='cuda:0')
+
+ loss: 0.08852271172218025 
+Parameter value: tensor([[-1.4186,  0.0949],
+        [-0.8611,  0.1483]], device='cuda:0')
+
+ loss: 0.08808455318212509 
+Parameter value: tensor([[-1.4191,  0.0935],
+        [-0.8607,  0.1454]], device='cuda:0')
+
+ loss: 0.0876243574079126 
+Parameter value: tensor([[-1.4195,  0.0921],
+        [-0.8602,  0.1426]], device='cuda:0')
+
+ loss: 0.08720317813567817 
+Parameter value: tensor([[-1.4200,  0.0908],
+        [-0.8599,  0.1397]], device='cuda:0')
+
+ loss: 0.08677845350466669 
+Parameter value: tensor([[-1.4205,  0.0894],
+        [-0.8595,  0.1368]], device='cuda:0')
+
+ loss: 0.08635453209280967 
+Parameter value: tensor([[-1.4210,  0.0879],
+        [-0.8590,  0.1340]], device='cuda:0')
+
+ loss: 0.08595374720171094 
+Parameter value: tensor([[-1.4215,  0.0865],
+        [-0.8587,  0.1312]], device='cuda:0')
+
+ loss: 0.0855226126499474 
+Parameter value: tensor([[-1.4219,  0.0852],
+        [-0.8583,  0.1284]], device='cuda:0')
+
+ loss: 0.0851258865557611 
+Parameter value: tensor([[-1.4224,  0.0838],
+        [-0.8579,  0.1255]], device='cuda:0')
+
+ loss: 0.08471502088941633 
+Parameter value: tensor([[-1.4228,  0.0822],
+        [-0.8576,  0.1228]], device='cuda:0')
+
+ loss: 0.08429102147929371 
+Parameter value: tensor([[-1.4232,  0.0808],
+        [-0.8574,  0.1200]], device='cuda:0')
+
+ loss: 0.08394056004472077 
+Parameter value: tensor([[-1.4237,  0.0794],
+        [-0.8571,  0.1172]], device='cuda:0')
+
+ loss: 0.08356954823248089 
+Parameter value: tensor([[-1.4241,  0.0780],
+        [-0.8568,  0.1144]], device='cuda:0')
+
+ loss: 0.08322430746629834 
+Parameter value: tensor([[-1.4246,  0.0766],
+        [-0.8566,  0.1117]], device='cuda:0')
+
+ loss: 0.08285228437744081 
+Parameter value: tensor([[-1.4251,  0.0751],
+        [-0.8563,  0.1089]], device='cuda:0')
+
+ loss: 0.08248692234046757 
+Parameter value: tensor([[-1.4255,  0.0737],
+        [-0.8561,  0.1062]], device='cuda:0')
+
+ loss: 0.08211814276874066 
+Parameter value: tensor([[-1.4259,  0.0722],
+        [-0.8559,  0.1035]], device='cuda:0')
+
+ loss: 0.08177048591896892 
+Parameter value: tensor([[-1.4263,  0.0708],
+        [-0.8557,  0.1008]], device='cuda:0')
+
+ loss: 0.0814531943295151 
+Parameter value: tensor([[-1.4269,  0.0693],
+        [-0.8556,  0.0981]], device='cuda:0')
+
+ loss: 0.08108549416065217 
+Parameter value: tensor([[-1.4272,  0.0679],
+        [-0.8555,  0.0955]], device='cuda:0')
+
+ loss: 0.0807647701818496 
+Parameter value: tensor([[-1.4277,  0.0664],
+        [-0.8554,  0.0928]], device='cuda:0')
+
+ loss: 0.08043469171971082 
+Parameter value: tensor([[-1.4281,  0.0649],
+        [-0.8553,  0.0902]], device='cuda:0')
+
+ loss: 0.08011952862143516 
+Parameter value: tensor([[-1.4285,  0.0633],
+        [-0.8553,  0.0876]], device='cuda:0')
+
+ loss: 0.07982002263888717 
+Parameter value: tensor([[-1.4290,  0.0618],
+        [-0.8553,  0.0850]], device='cuda:0')
+
+ loss: 0.0795440600719303 
+Parameter value: tensor([[-1.4295,  0.0604],
+        [-0.8554,  0.0824]], device='cuda:0')
+
+ loss: 0.07925227987580001 
+Parameter value: tensor([[-1.4299,  0.0588],
+        [-0.8554,  0.0798]], device='cuda:0')
+
+ loss: 0.0789685221388936 
+Parameter value: tensor([[-1.4303,  0.0574],
+        [-0.8555,  0.0773]], device='cuda:0')
+
+ loss: 0.07869562855921686 
+Parameter value: tensor([[-1.4308,  0.0558],
+        [-0.8557,  0.0748]], device='cuda:0')
+
+ loss: 0.07842237469740213 
+Parameter value: tensor([[-1.4312,  0.0544],
+        [-0.8558,  0.0723]], device='cuda:0')
+
+ loss: 0.07816883358173073 
+Parameter value: tensor([[-1.4317,  0.0529],
+        [-0.8559,  0.0698]], device='cuda:0')
+
+ loss: 0.07793615045957267 
+Parameter value: tensor([[-1.4322,  0.0514],
+        [-0.8561,  0.0674]], device='cuda:0')
+
+ loss: 0.07769503756426274 
+Parameter value: tensor([[-1.4326,  0.0500],
+        [-0.8563,  0.0650]], device='cuda:0')
+
+ loss: 0.07746190903708339 
+Parameter value: tensor([[-1.4331,  0.0485],
+        [-0.8565,  0.0626]], device='cuda:0')
+
+ loss: 0.07722056061029434 
+Parameter value: tensor([[-1.4335,  0.0471],
+        [-0.8567,  0.0603]], device='cuda:0')
+
+ loss: 0.07702653552405536 
+Parameter value: tensor([[-1.4341,  0.0456],
+        [-0.8568,  0.0580]], device='cuda:0')
+
+ loss: 0.07676635575480759 
+Parameter value: tensor([[-1.4344,  0.0442],
+        [-0.8571,  0.0556]], device='cuda:0')
+
+ loss: 0.07655351837165654 
+Parameter value: tensor([[-1.4349,  0.0428],
+        [-0.8574,  0.0534]], device='cuda:0')
+
+ loss: 0.07634580451995135 
+Parameter value: tensor([[-1.4354,  0.0414],
+        [-0.8577,  0.0512]], device='cuda:0')
+
+ loss: 0.07615712499246001 
+Parameter value: tensor([[-1.4359,  0.0399],
+        [-0.8580,  0.0490]], device='cuda:0')
+
+ loss: 0.07594293812289835 
+Parameter value: tensor([[-1.4363,  0.0385],
+        [-0.8582,  0.0469]], device='cuda:0')
+
+ loss: 0.07573641664348543 
+Parameter value: tensor([[-1.4367,  0.0371],
+        [-0.8586,  0.0448]], device='cuda:0')
+
+ loss: 0.07554816468618811 
+Parameter value: tensor([[-1.4372,  0.0357],
+        [-0.8589,  0.0428]], device='cuda:0')
+
+ loss: 0.07536993850953877 
+Parameter value: tensor([[-1.4376,  0.0344],
+        [-0.8592,  0.0409]], device='cuda:0')
+
+ loss: 0.07519293557852506 
+Parameter value: tensor([[-1.4381,  0.0331],
+        [-0.8596,  0.0390]], device='cuda:0')
+
+ loss: 0.0750253040343523 
+Parameter value: tensor([[-1.4386,  0.0318],
+        [-0.8600,  0.0371]], device='cuda:0')
+
+ loss: 0.07486507198773325 
+Parameter value: tensor([[-1.4390,  0.0305],
+        [-0.8603,  0.0353]], device='cuda:0')
+
+ loss: 0.07472078618593514 
+Parameter value: tensor([[-1.4395,  0.0293],
+        [-0.8608,  0.0336]], device='cuda:0')
+
+ loss: 0.07456849222071468 
+Parameter value: tensor([[-1.4400,  0.0281],
+        [-0.8612,  0.0319]], device='cuda:0')
+
+ loss: 0.07441499922424555 
+Parameter value: tensor([[-1.4404,  0.0268],
+        [-0.8616,  0.0303]], device='cuda:0')
+
+ loss: 0.07427288396283985 
+Parameter value: tensor([[-1.4409,  0.0257],
+        [-0.8621,  0.0287]], device='cuda:0')
+
+ loss: 0.07411043806932867 
+Parameter value: tensor([[-1.4413,  0.0246],
+        [-0.8625,  0.0273]], device='cuda:0')
+
+ loss: 0.07396548441611231 
+Parameter value: tensor([[-1.4418,  0.0235],
+        [-0.8629,  0.0259]], device='cuda:0')
+
+ loss: 0.07383991098031402 
+Parameter value: tensor([[-1.4423,  0.0224],
+        [-0.8634,  0.0246]], device='cuda:0')
+
+ loss: 0.07370877587236464 
+Parameter value: tensor([[-1.4428,  0.0214],
+        [-0.8638,  0.0233]], device='cuda:0')
+
+ loss: 0.0735675327014178 
+Parameter value: tensor([[-1.4432,  0.0204],
+        [-0.8643,  0.0221]], device='cuda:0')
+
+ loss: 0.07346228472888469 
+Parameter value: tensor([[-1.4437,  0.0194],
+        [-0.8648,  0.0209]], device='cuda:0')
+
+ loss: 0.07334215878508984 
+Parameter value: tensor([[-1.4441,  0.0184],
+        [-0.8652,  0.0198]], device='cuda:0')
+
+ loss: 0.07321572597138584 
+Parameter value: tensor([[-1.4446,  0.0176],
+        [-0.8657,  0.0188]], device='cuda:0')
+
+ loss: 0.0731041760649532 
+Parameter value: tensor([[-1.4451,  0.0167],
+        [-0.8662,  0.0178]], device='cuda:0')
+
+ loss: 0.07296623177826404 
+Parameter value: tensor([[-1.4455,  0.0158],
+        [-0.8667,  0.0168]], device='cuda:0')
+
+ loss: 0.07285733460448682 
+Parameter value: tensor([[-1.4460,  0.0150],
+        [-0.8672,  0.0159]], device='cuda:0')
+
+ loss: 0.07274342058226466 
+Parameter value: tensor([[-1.4465,  0.0143],
+        [-0.8676,  0.0151]], device='cuda:0')
+
+ loss: 0.07261921614408492 
+Parameter value: tensor([[-1.4469,  0.0135],
+        [-0.8681,  0.0143]], device='cuda:0')
+
+ loss: 0.07254902077838779 
+Parameter value: tensor([[-1.4474,  0.0128],
+        [-0.8686,  0.0135]], device='cuda:0')
+
+ loss: 0.07243719971738756 
+Parameter value: tensor([[-1.4479,  0.0121],
+        [-0.8691,  0.0128]], device='cuda:0')
+
+ loss: 0.07232179865241051 
+Parameter value: tensor([[-1.4483,  0.0115],
+        [-0.8696,  0.0121]], device='cuda:0')
+
+ loss: 0.07224756302312016 
+Parameter value: tensor([[-1.4488,  0.0109],
+        [-0.8702,  0.0116]], device='cuda:0')
+
+ loss: 0.07213491639122367 
+Parameter value: tensor([[-1.4492,  0.0103],
+        [-0.8708,  0.0109]], device='cuda:0')
+
+ loss: 0.07204197086393833 
+Parameter value: tensor([[-1.4496,  0.0098],
+        [-0.8713,  0.0104]], device='cuda:0')
+
+ loss: 0.07193920244462788 
+Parameter value: tensor([[-1.4501,  0.0093],
+        [-0.8718,  0.0098]], device='cuda:0')
+
+ loss: 0.07184396591037512 
+Parameter value: tensor([[-1.4505,  0.0088],
+        [-0.8723,  0.0093]], device='cuda:0')
+
+ loss: 0.07179199061356485 
+Parameter value: tensor([[-1.4510,  0.0083],
+        [-0.8728,  0.0088]], device='cuda:0')
+
+ loss: 0.07167841861955822 
+Parameter value: tensor([[-1.4515,  0.0079],
+        [-0.8732,  0.0084]], device='cuda:0')
+
+ loss: 0.0716087126173079 
+Parameter value: tensor([[-1.4520,  0.0075],
+        [-0.8738,  0.0079]], device='cuda:0')
+
+ loss: 0.07151077762246132 
+Parameter value: tensor([[-1.4524,  0.0071],
+        [-0.8743,  0.0075]], device='cuda:0')
+
+ loss: 0.07136556780897081 
+Parameter value: tensor([[-1.4527,  0.0067],
+        [-0.8748,  0.0071]], device='cuda:0')
+
+ loss: 0.07131349137052893 
+Parameter value: tensor([[-1.4532,  0.0063],
+        [-0.8752,  0.0068]], device='cuda:0')
+
+ loss: 0.07123627900145948 
+Parameter value: tensor([[-1.4537,  0.0060],
+        [-0.8757,  0.0065]], device='cuda:0')
+
+ loss: 0.07116697882302106 
+Parameter value: tensor([[-1.4541,  0.0057],
+        [-0.8763,  0.0062]], device='cuda:0')
+
+ loss: 0.0710614390205592 
+Parameter value: tensor([[-1.4545,  0.0054],
+        [-0.8768,  0.0059]], device='cuda:0')
+
+ loss: 0.07101601902395487 
+Parameter value: tensor([[-1.4550,  0.0051],
+        [-0.8773,  0.0057]], device='cuda:0')
+
+ loss: 0.07090806066989899 
+Parameter value: tensor([[-1.4553,  0.0048],
+        [-0.8779,  0.0054]], device='cuda:0')
+
+ loss: 0.07081902530044318 
+Parameter value: tensor([[-1.4558,  0.0046],
+        [-0.8784,  0.0052]], device='cuda:0')
+
+ loss: 0.07073073978535831 
+Parameter value: tensor([[-1.4561,  0.0044],
+        [-0.8789,  0.0050]], device='cuda:0')
+
+ loss: 0.07063501570373773 
+Parameter value: tensor([[-1.4565,  0.0042],
+        [-0.8794,  0.0048]], device='cuda:0')
+
+ loss: 0.07060644119046629 
+Parameter value: tensor([[-1.4570,  0.0040],
+        [-0.8800,  0.0046]], device='cuda:0')
+
+ loss: 0.0705127093475312 
+Parameter value: tensor([[-1.4573,  0.0038],
+        [-0.8805,  0.0045]], device='cuda:0')
+
+ loss: 0.0704384796321392 
+Parameter value: tensor([[-1.4577,  0.0036],
+        [-0.8810,  0.0042]], device='cuda:0')
+
+ loss: 0.07037835554219782 
+Parameter value: tensor([[-1.4581,  0.0034],
+        [-0.8815,  0.0041]], device='cuda:0')
+
+ loss: 0.07031165822409094 
+Parameter value: tensor([[-1.4585,  0.0033],
+        [-0.8820,  0.0040]], device='cuda:0')
+
+ loss: 0.07024494959041476 
+Parameter value: tensor([[-1.4590,  0.0032],
+        [-0.8824,  0.0038]], device='cuda:0')
+
+ loss: 0.07018842040561139 
+Parameter value: tensor([[-1.4593,  0.0030],
+        [-0.8830,  0.0037]], device='cuda:0')
+
+ loss: 0.07011747756041586 
+Parameter value: tensor([[-1.4597,  0.0029],
+        [-0.8835,  0.0036]], device='cuda:0')
+
+ loss: 0.07001440762542188 
+Parameter value: tensor([[-1.4600,  0.0028],
+        [-0.8840,  0.0035]], device='cuda:0')
+
+ loss: 0.0699708207976073 
+Parameter value: tensor([[-1.4604,  0.0027],
+        [-0.8845,  0.0034]], device='cuda:0')
+
+ loss: 0.06992014641873538 
+Parameter value: tensor([[-1.4609,  0.0026],
+        [-0.8849,  0.0033]], device='cuda:0')
+
+ loss: 0.06987407691776752 
+Parameter value: tensor([[-1.4613,  0.0024],
+        [-0.8854,  0.0032]], device='cuda:0')
+
+ loss: 0.06977452388964593 
+Parameter value: tensor([[-1.4615,  0.0024],
+        [-0.8859,  0.0031]], device='cuda:0')
+
+ loss: 0.06970322742126882 
+Parameter value: tensor([[-1.4619,  0.0023],
+        [-0.8863,  0.0031]], device='cuda:0')
+
+ loss: 0.0696402565576136 
+Parameter value: tensor([[-1.4623,  0.0022],
+        [-0.8868,  0.0030]], device='cuda:0')
+
+ loss: 0.06955645754933357 
+Parameter value: tensor([[-1.4626,  0.0021],
+        [-0.8873,  0.0029]], device='cuda:0')
+
+ loss: 0.06948917382396758 
+Parameter value: tensor([[-1.4629,  0.0020],
+        [-0.8878,  0.0029]], device='cuda:0')
+
+ loss: 0.06943054925650358 
+Parameter value: tensor([[-1.4633,  0.0020],
+        [-0.8883,  0.0028]], device='cuda:0')
+
+ loss: 0.06933178021572531 
+Parameter value: tensor([[-1.4636,  0.0020],
+        [-0.8888,  0.0028]], device='cuda:0')
+
+ loss: 0.06929552932269871 
+Parameter value: tensor([[-1.4640,  0.0019],
+        [-0.8891,  0.0027]], device='cuda:0')
+
+ loss: 0.06923244902864098 
+Parameter value: tensor([[-1.4643,  0.0019],
+        [-0.8896,  0.0027]], device='cuda:0')
+
+ loss: 0.06918358495458961 
+Parameter value: tensor([[-1.4647,  0.0018],
+        [-0.8901,  0.0027]], device='cuda:0')
+
+ loss: 0.06914378409273922 
+Parameter value: tensor([[-1.4650,  0.0018],
+        [-0.8905,  0.0027]], device='cuda:0')
+
+ loss: 0.06909448159858585 
+Parameter value: tensor([[-1.4654,  0.0018],
+        [-0.8910,  0.0027]], device='cuda:0')
+
+ loss: 0.0690324027556926 
+Parameter value: tensor([[-1.4657,  0.0018],
+        [-0.8915,  0.0026]], device='cuda:0')
+
+ loss: 0.06897187712602318 
+Parameter value: tensor([[-1.4660,  0.0018],
+        [-0.8920,  0.0026]], device='cuda:0')
+
+ loss: 0.06891205846332013 
+Parameter value: tensor([[-1.4664,  0.0017],
+        [-0.8924,  0.0026]], device='cuda:0')
+
+ loss: 0.06884984611533582 
+Parameter value: tensor([[-1.4667,  0.0017],
+        [-0.8929,  0.0026]], device='cuda:0')
+
+ loss: 0.06877609440125525 
+Parameter value: tensor([[-1.4670,  0.0017],
+        [-0.8934,  0.0026]], device='cuda:0')
+
+ loss: 0.06872714040800929 
+Parameter value: tensor([[-1.4673,  0.0017],
+        [-0.8938,  0.0025]], device='cuda:0')
+
+ loss: 0.06865216055884957 
+Parameter value: tensor([[-1.4675,  0.0017],
+        [-0.8943,  0.0026]], device='cuda:0')
+
+ loss: 0.06859254003502428 
+Parameter value: tensor([[-1.4679,  0.0017],
+        [-0.8947,  0.0026]], device='cuda:0')
+
+ loss: 0.06856304947286844 
+Parameter value: tensor([[-1.4682,  0.0018],
+        [-0.8952,  0.0025]], device='cuda:0')
+
+ loss: 0.0685352858621627 
+Parameter value: tensor([[-1.4686,  0.0018],
+        [-0.8956,  0.0025]], device='cuda:0')
+
+ loss: 0.06848923866637051 
+Parameter value: tensor([[-1.4689,  0.0018],
+        [-0.8961,  0.0025]], device='cuda:0')
+
+ loss: 0.06841743462719023 
+Parameter value: tensor([[-1.4691,  0.0018],
+        [-0.8965,  0.0025]], device='cuda:0')
+
+ loss: 0.06838770508766175 
+Parameter value: tensor([[-1.4695,  0.0018],
+        [-0.8969,  0.0025]], device='cuda:0')
+
+ loss: 0.06833207993768156 
+Parameter value: tensor([[-1.4698,  0.0018],
+        [-0.8974,  0.0025]], device='cuda:0')
+
+ loss: 0.06827101395465433 
+Parameter value: tensor([[-1.4700,  0.0019],
+        [-0.8978,  0.0025]], device='cuda:0')
+
+ loss: 0.06822816673666239 
+Parameter value: tensor([[-1.4703,  0.0019],
+        [-0.8982,  0.0025]], device='cuda:0')
+
+ loss: 0.06816267985850573 
+Parameter value: tensor([[-1.4705,  0.0018],
+        [-0.8986,  0.0025]], device='cuda:0')
+
+ loss: 0.06812588809989392 
+Parameter value: tensor([[-1.4708,  0.0018],
+        [-0.8991,  0.0025]], device='cuda:0')
+
+ loss: 0.06809271983802319 
+Parameter value: tensor([[-1.4711,  0.0019],
+        [-0.8995,  0.0025]], device='cuda:0')
+
+ loss: 0.06805693567730486 
+Parameter value: tensor([[-1.4714,  0.0019],
+        [-0.8999,  0.0024]], device='cuda:0')
+
+ loss: 0.0680374556221068 
+Parameter value: tensor([[-1.4717,  0.0019],
+        [-0.9003,  0.0025]], device='cuda:0')
+
+ loss: 0.0679457479622215 
+Parameter value: tensor([[-1.4718,  0.0019],
+        [-0.9007,  0.0024]], device='cuda:0')
+
+ loss: 0.06791517497040331 
+Parameter value: tensor([[-1.4721,  0.0019],
+        [-0.9011,  0.0025]], device='cuda:0')
+
+ loss: 0.0678733732085675 
+Parameter value: tensor([[-1.4724,  0.0019],
+        [-0.9015,  0.0025]], device='cuda:0')
+
+ loss: 0.06784426742233336 
+Parameter value: tensor([[-1.4726,  0.0019],
+        [-0.9019,  0.0025]], device='cuda:0')
+
+ loss: 0.06785558899864555 
+Parameter value: tensor([[-1.4730,  0.0019],
+        [-0.9023,  0.0026]], device='cuda:0')
+
+ loss: 0.06779025183059276 
+Parameter value: tensor([[-1.4732,  0.0020],
+        [-0.9027,  0.0026]], device='cuda:0')
+
+ loss: 0.06773728849366308 
+Parameter value: tensor([[-1.4734,  0.0020],
+        [-0.9032,  0.0025]], device='cuda:0')
+
+ loss: 0.06773242303170264 
+Parameter value: tensor([[-1.4737,  0.0020],
+        [-0.9036,  0.0025]], device='cuda:0')
+
+ loss: 0.06769849723204971 
+Parameter value: tensor([[-1.4740,  0.0020],
+        [-0.9039,  0.0025]], device='cuda:0')
+
+ loss: 0.06762879621237516 
+Parameter value: tensor([[-1.4742,  0.0021],
+        [-0.9043,  0.0025]], device='cuda:0')
+
+ loss: 0.06757422438822687 
+Parameter value: tensor([[-1.4744,  0.0020],
+        [-0.9047,  0.0025]], device='cuda:0')
+
+ loss: 0.06756413099355996 
+Parameter value: tensor([[-1.4747,  0.0021],
+        [-0.9051,  0.0026]], device='cuda:0')
+
+ loss: 0.06750208288431167 
+Parameter value: tensor([[-1.4749,  0.0020],
+        [-0.9055,  0.0026]], device='cuda:0')
+
+ loss: 0.06745328409597277 
+Parameter value: tensor([[-1.4751,  0.0021],
+        [-0.9059,  0.0025]], device='cuda:0')
+
+ loss: 0.06741629736497998 
+Parameter value: tensor([[-1.4753,  0.0021],
+        [-0.9062,  0.0025]], device='cuda:0')
+
+ loss: 0.06737615438178182 
+Parameter value: tensor([[-1.4756,  0.0021],
+        [-0.9065,  0.0025]], device='cuda:0')
+
+ loss: 0.06739317527972162 
+Parameter value: tensor([[-1.4759,  0.0021],
+        [-0.9069,  0.0025]], device='cuda:0')
+
+ loss: 0.06732873660512269 
+Parameter value: tensor([[-1.4761,  0.0021],
+        [-0.9073,  0.0025]], device='cuda:0')
+
+ loss: 0.06730843614786863 
+Parameter value: tensor([[-1.4763,  0.0021],
+        [-0.9076,  0.0025]], device='cuda:0')
+
+ loss: 0.06728215492330492 
+Parameter value: tensor([[-1.4765,  0.0022],
+        [-0.9080,  0.0025]], device='cuda:0')
+
+ loss: 0.0672576985321939 
+Parameter value: tensor([[-1.4767,  0.0021],
+        [-0.9083,  0.0025]], device='cuda:0')
+
+ loss: 0.06721603167243302 
+Parameter value: tensor([[-1.4769,  0.0021],
+        [-0.9087,  0.0025]], device='cuda:0')
+
+ loss: 0.06717294505797326 
+Parameter value: tensor([[-1.4772,  0.0021],
+        [-0.9090,  0.0025]], device='cuda:0')
+
+ loss: 0.06713948315009474 
+Parameter value: tensor([[-1.4774,  0.0022],
+        [-0.9094,  0.0025]], device='cuda:0')
+
+ loss: 0.06711343042552471 
+Parameter value: tensor([[-1.4776,  0.0022],
+        [-0.9097,  0.0025]], device='cuda:0')
+
+ loss: 0.06706902347505092 
+Parameter value: tensor([[-1.4778,  0.0022],
+        [-0.9101,  0.0025]], device='cuda:0')
+
+ loss: 0.06705712671391666 
+Parameter value: tensor([[-1.4780,  0.0022],
+        [-0.9104,  0.0025]], device='cuda:0')
+
+ loss: 0.06699362914077937 
+Parameter value: tensor([[-1.4781,  0.0022],
+        [-0.9107,  0.0026]], device='cuda:0')
+
+ loss: 0.0669877678155899 
+Parameter value: tensor([[-1.4784,  0.0022],
+        [-0.9111,  0.0026]], device='cuda:0')
+
+ loss: 0.06692337347194552 
+Parameter value: tensor([[-1.4785,  0.0022],
+        [-0.9115,  0.0026]], device='cuda:0')
+
+ loss: 0.06689730547368526 
+Parameter value: tensor([[-1.4787,  0.0023],
+        [-0.9118,  0.0026]], device='cuda:0')
+
+ loss: 0.06692449091933668 
+Parameter value: tensor([[-1.4790,  0.0023],
+        [-0.9121,  0.0026]], device='cuda:0')
+
+ loss: 0.06689878962934018 
+Parameter value: tensor([[-1.4792,  0.0023],
+        [-0.9124,  0.0027]], device='cuda:0')
+
+ loss: 0.06685064183548092 
+Parameter value: tensor([[-1.4794,  0.0024],
+        [-0.9127,  0.0027]], device='cuda:0')
+
+ loss: 0.06679888884536922 
+Parameter value: tensor([[-1.4795,  0.0024],
+        [-0.9131,  0.0027]], device='cuda:0')
+
+ loss: 0.06682778671383857 
+Parameter value: tensor([[-1.4798,  0.0025],
+        [-0.9134,  0.0028]], device='cuda:0')
+
+ loss: 0.06676645572297275 
+Parameter value: tensor([[-1.4799,  0.0025],
+        [-0.9137,  0.0028]], device='cuda:0')
+
+ loss: 0.06674692276865243 
+Parameter value: tensor([[-1.4801,  0.0026],
+        [-0.9140,  0.0028]], device='cuda:0')
+
+ loss: 0.06671606241725385 
+Parameter value: tensor([[-1.4803,  0.0026],
+        [-0.9144,  0.0028]], device='cuda:0')
+
+ loss: 0.06671569920144975 
+Parameter value: tensor([[-1.4805,  0.0026],
+        [-0.9147,  0.0029]], device='cuda:0')
+
+ loss: 0.06666446048766375 
+Parameter value: tensor([[-1.4807,  0.0027],
+        [-0.9151,  0.0029]], device='cuda:0')
+
+ loss: 0.06662440286017954 
+Parameter value: tensor([[-1.4808,  0.0027],
+        [-0.9154,  0.0029]], device='cuda:0')
+
+ loss: 0.06663003331050277 
+Parameter value: tensor([[-1.4810,  0.0027],
+        [-0.9157,  0.0029]], device='cuda:0')
+
+ loss: 0.06659267512150109 
+Parameter value: tensor([[-1.4812,  0.0027],
+        [-0.9161,  0.0030]], device='cuda:0')
+
+ loss: 0.06657125242054462 
+Parameter value: tensor([[-1.4814,  0.0028],
+        [-0.9164,  0.0030]], device='cuda:0')
+
+ loss: 0.06658372711390256 
+Parameter value: tensor([[-1.4816,  0.0028],
+        [-0.9167,  0.0030]], device='cuda:0')
+
+ loss: 0.0665324881207198 
+Parameter value: tensor([[-1.4817,  0.0028],
+        [-0.9170,  0.0031]], device='cuda:0')
+
+ loss: 0.06652326327748596 
+Parameter value: tensor([[-1.4819,  0.0028],
+        [-0.9172,  0.0030]], device='cuda:0')
+
+ loss: 0.0664610599167645 
+Parameter value: tensor([[-1.4820,  0.0028],
+        [-0.9176,  0.0031]], device='cuda:0')
+
+ loss: 0.06646201526746154 
+Parameter value: tensor([[-1.4822,  0.0028],
+        [-0.9178,  0.0031]], device='cuda:0')
+
+ loss: 0.0664589102845639 
+Parameter value: tensor([[-1.4824,  0.0028],
+        [-0.9182,  0.0031]], device='cuda:0')
+
+ loss: 0.06644515017978847 
+Parameter value: tensor([[-1.4826,  0.0028],
+        [-0.9185,  0.0031]], device='cuda:0')
+
+ loss: 0.06641113394871354 
+Parameter value: tensor([[-1.4827,  0.0028],
+        [-0.9188,  0.0031]], device='cuda:0')
+
+ loss: 0.0663990892469883 
+Parameter value: tensor([[-1.4829,  0.0028],
+        [-0.9190,  0.0031]], device='cuda:0')
+
+ loss: 0.06637528063729406 
+Parameter value: tensor([[-1.4831,  0.0028],
+        [-0.9193,  0.0031]], device='cuda:0')
+
+ loss: 0.06631330810487271 
+Parameter value: tensor([[-1.4832,  0.0028],
+        [-0.9197,  0.0031]], device='cuda:0')
+
+ loss: 0.06629212414845824 
+Parameter value: tensor([[-1.4833,  0.0028],
+        [-0.9200,  0.0031]], device='cuda:0')
+
+ loss: 0.066309918416664 
+Parameter value: tensor([[-1.4835,  0.0028],
+        [-0.9203,  0.0031]], device='cuda:0')
+
+ loss: 0.06630237773060799 
+Parameter value: tensor([[-1.4837,  0.0029],
+        [-0.9205,  0.0031]], device='cuda:0')
+
+ loss: 0.06628565373830497 
+Parameter value: tensor([[-1.4838,  0.0028],
+        [-0.9208,  0.0031]], device='cuda:0')
+
+ loss: 0.06620977493003011 
+Parameter value: tensor([[-1.4839,  0.0029],
+        [-0.9211,  0.0031]], device='cuda:0')
+
+ loss: 0.06621107528917491 
+Parameter value: tensor([[-1.4841,  0.0029],
+        [-0.9214,  0.0031]], device='cuda:0')
+
+ loss: 0.06622481178492308 
+Parameter value: tensor([[-1.4843,  0.0029],
+        [-0.9215,  0.0031]], device='cuda:0')
+
+ loss: 0.06622877824120224 
+Parameter value: tensor([[-1.4845,  0.0028],
+        [-0.9218,  0.0031]], device='cuda:0')
+
+ loss: 0.06620370578020811 
+Parameter value: tensor([[-1.4846,  0.0028],
+        [-0.9221,  0.0031]], device='cuda:0')
+
+ loss: 0.06615243437699973 
+Parameter value: tensor([[-1.4847,  0.0028],
+        [-0.9224,  0.0031]], device='cuda:0')
+
+ loss: 0.06612680912949145 
+Parameter value: tensor([[-1.4848,  0.0028],
+        [-0.9227,  0.0031]], device='cuda:0')
+
+ loss: 0.06608826019801199 
+Parameter value: tensor([[-1.4848,  0.0028],
+        [-0.9229,  0.0031]], device='cuda:0')
+
+ loss: 0.06611204915679991 
+Parameter value: tensor([[-1.4851,  0.0028],
+        [-0.9232,  0.0031]], device='cuda:0')
+
+ loss: 0.06611157022416592 
+Parameter value: tensor([[-1.4852,  0.0028],
+        [-0.9234,  0.0031]], device='cuda:0')
+
+ loss: 0.06606431864202023 
+Parameter value: tensor([[-1.4853,  0.0028],
+        [-0.9237,  0.0031]], device='cuda:0')
+
+ loss: 0.06604824513196945 
+Parameter value: tensor([[-1.4854,  0.0028],
+        [-0.9240,  0.0031]], device='cuda:0')
+
+ loss: 0.06605794113129378 
+Parameter value: tensor([[-1.4856,  0.0027],
+        [-0.9242,  0.0031]], device='cuda:0')
+
+ loss: 0.06604680577293039 
+Parameter value: tensor([[-1.4857,  0.0027],
+        [-0.9245,  0.0031]], device='cuda:0')
+
+ loss: 0.06598315606825053 
+Parameter value: tensor([[-1.4858,  0.0027],
+        [-0.9247,  0.0031]], device='cuda:0')
+
+ loss: 0.06599673531018198 
+Parameter value: tensor([[-1.4859,  0.0027],
+        [-0.9250,  0.0031]], device='cuda:0')
+
+ loss: 0.06597324390895665 
+Parameter value: tensor([[-1.4860,  0.0027],
+        [-0.9253,  0.0030]], device='cuda:0')
+
+ loss: 0.0659687620587647 
+Parameter value: tensor([[-1.4862,  0.0027],
+        [-0.9255,  0.0030]], device='cuda:0')
+
+ loss: 0.06597460312768817 
+Parameter value: tensor([[-1.4864,  0.0027],
+        [-0.9257,  0.0030]], device='cuda:0')
+
+ loss: 0.06597752966918051 
+Parameter value: tensor([[-1.4865,  0.0026],
+        [-0.9260,  0.0030]], device='cuda:0')
+
+ loss: 0.0659342008177191 
+Parameter value: tensor([[-1.4865,  0.0026],
+        [-0.9263,  0.0030]], device='cuda:0')
+
+ loss: 0.06588805522769689 
+Parameter value: tensor([[-1.4866,  0.0026],
+        [-0.9265,  0.0030]], device='cuda:0')
+
+ loss: 0.0659041877835989 
+Parameter value: tensor([[-1.4868,  0.0026],
+        [-0.9268,  0.0030]], device='cuda:0')
+
+ loss: 0.06591991172172129 
+Parameter value: tensor([[-1.4870,  0.0026],
+        [-0.9270,  0.0030]], device='cuda:0')
+
+ loss: 0.06586932698264718 
+Parameter value: tensor([[-1.4870,  0.0026],
+        [-0.9273,  0.0029]], device='cuda:0')
+
+ loss: 0.06590544045902788 
+Parameter value: tensor([[-1.4872,  0.0026],
+        [-0.9275,  0.0029]], device='cuda:0')
+
+ loss: 0.06588163957931101 
+Parameter value: tensor([[-1.4873,  0.0025],
+        [-0.9278,  0.0029]], device='cuda:0')
+
+ loss: 0.06585535542108119 
+Parameter value: tensor([[-1.4874,  0.0025],
+        [-0.9280,  0.0029]], device='cuda:0')
+
+ loss: 0.06582863316871226 
+Parameter value: tensor([[-1.4875,  0.0024],
+        [-0.9283,  0.0030]], device='cuda:0')
+
+ loss: 0.06580746890977025 
+Parameter value: tensor([[-1.4876,  0.0024],
+        [-0.9285,  0.0029]], device='cuda:0')
+
+ loss: 0.06585869113914669 
+Parameter value: tensor([[-1.4878,  0.0024],
+        [-0.9287,  0.0029]], device='cuda:0')
+
+ loss: 0.06582228736951948 
+Parameter value: tensor([[-1.4879,  0.0024],
+        [-0.9290,  0.0029]], device='cuda:0')
+
+ loss: 0.0657895668875426 
+Parameter value: tensor([[-1.4880,  0.0024],
+        [-0.9292,  0.0029]], device='cuda:0')
+
+ loss: 0.06577921654097736 
+Parameter value: tensor([[-1.4881,  0.0023],
+        [-0.9295,  0.0028]], device='cuda:0')
+
+ loss: 0.06578386728651822 
+Parameter value: tensor([[-1.4883,  0.0023],
+        [-0.9297,  0.0029]], device='cuda:0')
+
+ loss: 0.06576005253009498 
+Parameter value: tensor([[-1.4884,  0.0023],
+        [-0.9299,  0.0028]], device='cuda:0')
+
+ loss: 0.06577925607562066 
+Parameter value: tensor([[-1.4885,  0.0023],
+        [-0.9301,  0.0028]], device='cuda:0')
+
+ loss: 0.06573959598317743 
+Parameter value: tensor([[-1.4886,  0.0023],
+        [-0.9304,  0.0028]], device='cuda:0')
+
+ loss: 0.06578733711503446 
+Parameter value: tensor([[-1.4888,  0.0022],
+        [-0.9306,  0.0028]], device='cuda:0')
+
+ loss: 0.06574618238955736 
+Parameter value: tensor([[-1.4888,  0.0022],
+        [-0.9308,  0.0028]], device='cuda:0')
+
+ loss: 0.06571211763657629 
+Parameter value: tensor([[-1.4889,  0.0022],
+        [-0.9310,  0.0028]], device='cuda:0')
+
+ loss: 0.0656930832657963 
+Parameter value: tensor([[-1.4890,  0.0022],
+        [-0.9313,  0.0027]], device='cuda:0')
+
+ loss: 0.06571778794750571 
+Parameter value: tensor([[-1.4892,  0.0022],
+        [-0.9314,  0.0027]], device='cuda:0')
+
+ loss: 0.06567774987779558 
+Parameter value: tensor([[-1.4892,  0.0022],
+        [-0.9317,  0.0027]], device='cuda:0')
+
+ loss: 0.06565857673995197 
+Parameter value: tensor([[-1.4893,  0.0022],
+        [-0.9319,  0.0027]], device='cuda:0')
+
+ loss: 0.065657818922773 
+Parameter value: tensor([[-1.4894,  0.0022],
+        [-0.9321,  0.0027]], device='cuda:0')
+
+ loss: 0.06564081190153956 
+Parameter value: tensor([[-1.4895,  0.0022],
+        [-0.9323,  0.0027]], device='cuda:0')
+
+ loss: 0.06568671623244882 
+Parameter value: tensor([[-1.4897,  0.0021],
+        [-0.9325,  0.0027]], device='cuda:0')
+
+ loss: 0.0656257450580597 
+Parameter value: tensor([[-1.4897,  0.0021],
+        [-0.9328,  0.0026]], device='cuda:0')
+
+ loss: 0.06559385010041296 
+Parameter value: tensor([[-1.4898,  0.0022],
+        [-0.9330,  0.0026]], device='cuda:0')
+
+ loss: 0.06562478900887073 
+Parameter value: tensor([[-1.4899,  0.0021],
+        [-0.9332,  0.0026]], device='cuda:0')
+
+ loss: 0.06562217543832957 
+Parameter value: tensor([[-1.4901,  0.0021],
+        [-0.9333,  0.0026]], device='cuda:0')
+
+ loss: 0.06559428703039885 
+Parameter value: tensor([[-1.4901,  0.0021],
+        [-0.9336,  0.0025]], device='cuda:0')
+
+ loss: 0.06556490371003747 
+Parameter value: tensor([[-1.4902,  0.0021],
+        [-0.9338,  0.0025]], device='cuda:0')
+
+ loss: 0.065582091268152 
+Parameter value: tensor([[-1.4903,  0.0021],
+        [-0.9340,  0.0025]], device='cuda:0')
+
+ loss: 0.06562250377610326 
+Parameter value: tensor([[-1.4905,  0.0021],
+        [-0.9342,  0.0025]], device='cuda:0')
+
+ loss: 0.06555889691226184 
+Parameter value: tensor([[-1.4905,  0.0020],
+        [-0.9345,  0.0025]], device='cuda:0')
+
+ loss: 0.0655631591565907 
+Parameter value: tensor([[-1.4906,  0.0020],
+        [-0.9347,  0.0025]], device='cuda:0')
+
+ loss: 0.06556721893139184 
+Parameter value: tensor([[-1.4908,  0.0020],
+        [-0.9349,  0.0025]], device='cuda:0')
+
+ loss: 0.06553953243419527 
+Parameter value: tensor([[-1.4908,  0.0019],
+        [-0.9351,  0.0024]], device='cuda:0')
+
+ loss: 0.065556923719123 
+Parameter value: tensor([[-1.4910,  0.0019],
+        [-0.9353,  0.0024]], device='cuda:0')
+
+ loss: 0.06553028826601803 
+Parameter value: tensor([[-1.4910,  0.0019],
+        [-0.9355,  0.0024]], device='cuda:0')
+
+ loss: 0.06551396674476564 
+Parameter value: tensor([[-1.4911,  0.0019],
+        [-0.9357,  0.0024]], device='cuda:0')
+
+ loss: 0.06548350737430156 
+Parameter value: tensor([[-1.4912,  0.0019],
+        [-0.9359,  0.0024]], device='cuda:0')
+
+ loss: 0.06546613285318018 
+Parameter value: tensor([[-1.4912,  0.0019],
+        [-0.9362,  0.0024]], device='cuda:0')
+
+ loss: 0.06549991597421467 
+Parameter value: tensor([[-1.4914,  0.0019],
+        [-0.9363,  0.0024]], device='cuda:0')
+
+ loss: 0.06548741832375526 
+Parameter value: tensor([[-1.4915,  0.0019],
+        [-0.9365,  0.0024]], device='cuda:0')
+
+ loss: 0.06546708634123206 
+Parameter value: tensor([[-1.4916,  0.0018],
+        [-0.9367,  0.0024]], device='cuda:0')
+
+ loss: 0.06546872234903275 
+Parameter value: tensor([[-1.4917,  0.0019],
+        [-0.9369,  0.0024]], device='cuda:0')
+
+ loss: 0.0654328091070056 
+Parameter value: tensor([[-1.4917,  0.0019],
+        [-0.9371,  0.0024]], device='cuda:0')
+
+ loss: 0.06548346797935664 
+Parameter value: tensor([[-1.4919,  0.0019],
+        [-0.9373,  0.0023]], device='cuda:0')
+
+ loss: 0.0654321095906198 
+Parameter value: tensor([[-1.4919,  0.0019],
+        [-0.9376,  0.0023]], device='cuda:0')
+
+ loss: 0.0654417674522847 
+Parameter value: tensor([[-1.4920,  0.0019],
+        [-0.9377,  0.0023]], device='cuda:0')
+
+ loss: 0.0654529572930187 
+Parameter value: tensor([[-1.4922,  0.0019],
+        [-0.9379,  0.0023]], device='cuda:0')
+
+ loss: 0.06542511382140219 
+Parameter value: tensor([[-1.4922,  0.0019],
+        [-0.9381,  0.0023]], device='cuda:0')
+
+ loss: 0.06544950474053621 
+Parameter value: tensor([[-1.4923,  0.0020],
+        [-0.9383,  0.0023]], device='cuda:0')
+
+ loss: 0.06542902952060103 
+Parameter value: tensor([[-1.4924,  0.0020],
+        [-0.9384,  0.0023]], device='cuda:0')
+
+ loss: 0.06537880157120526 
+Parameter value: tensor([[-1.4924,  0.0020],
+        [-0.9386,  0.0023]], device='cuda:0')
+
+ loss: 0.06538135828450323 
+Parameter value: tensor([[-1.4925,  0.0020],
+        [-0.9388,  0.0023]], device='cuda:0')
+
+ loss: 0.06539382771588861 
+Parameter value: tensor([[-1.4926,  0.0020],
+        [-0.9390,  0.0023]], device='cuda:0')
+
+ loss: 0.06539597767405211 
+Parameter value: tensor([[-1.4928,  0.0020],
+        [-0.9391,  0.0022]], device='cuda:0')
+
+ loss: 0.06538880132138729 
+Parameter value: tensor([[-1.4928,  0.0020],
+        [-0.9393,  0.0023]], device='cuda:0')
+
+ loss: 0.06534535489045083 
+Parameter value: tensor([[-1.4928,  0.0019],
+        [-0.9395,  0.0023]], device='cuda:0')
+
+ loss: 0.06532930335961282 
+Parameter value: tensor([[-1.4929,  0.0019],
+        [-0.9397,  0.0023]], device='cuda:0')
+
+ loss: 0.06532526104710996 
+Parameter value: tensor([[-1.4930,  0.0019],
+        [-0.9399,  0.0023]], device='cuda:0')
+
+ loss: 0.06531546949408948 
+Parameter value: tensor([[-1.4931,  0.0019],
+        [-0.9401,  0.0023]], device='cuda:0')
+
+ loss: 0.06531209126114845 
+Parameter value: tensor([[-1.4932,  0.0018],
+        [-0.9402,  0.0023]], device='cuda:0')
+
+ loss: 0.06533828671090305 
+Parameter value: tensor([[-1.4933,  0.0018],
+        [-0.9403,  0.0022]], device='cuda:0')
+
+ loss: 0.06531259650364518 
+Parameter value: tensor([[-1.4934,  0.0018],
+        [-0.9405,  0.0023]], device='cuda:0')
+
+ loss: 0.06531444224528968 
+Parameter value: tensor([[-1.4935,  0.0017],
+        [-0.9407,  0.0023]], device='cuda:0')
+
+ loss: 0.06530920071527362 
+Parameter value: tensor([[-1.4935,  0.0017],
+        [-0.9409,  0.0023]], device='cuda:0')
+
+ loss: 0.0653283076826483 
+Parameter value: tensor([[-1.4936,  0.0017],
+        [-0.9411,  0.0022]], device='cuda:0')
+
+ loss: 0.06528940936550498 
+Parameter value: tensor([[-1.4937,  0.0017],
+        [-0.9412,  0.0022]], device='cuda:0')
+
+ loss: 0.06529488610103726 
+Parameter value: tensor([[-1.4937,  0.0017],
+        [-0.9414,  0.0022]], device='cuda:0')
+
+ loss: 0.06530046164989471 
+Parameter value: tensor([[-1.4938,  0.0017],
+        [-0.9415,  0.0022]], device='cuda:0')
+
+ loss: 0.06530353175476193 
+Parameter value: tensor([[-1.4939,  0.0017],
+        [-0.9417,  0.0022]], device='cuda:0')
+
+ loss: 0.06528363921679556 
+Parameter value: tensor([[-1.4940,  0.0017],
+        [-0.9419,  0.0021]], device='cuda:0')
+
+ loss: 0.06525251171551645 
+Parameter value: tensor([[-1.4940,  0.0016],
+        [-0.9421,  0.0022]], device='cuda:0')
+
+ loss: 0.06523397075943649 
+Parameter value: tensor([[-1.4941,  0.0016],
+        [-0.9422,  0.0021]], device='cuda:0')
+
+ loss: 0.06525642559863627 
+Parameter value: tensor([[-1.4942,  0.0016],
+        [-0.9423,  0.0021]], device='cuda:0')
+
+ loss: 0.06524003720842302 
+Parameter value: tensor([[-1.4942,  0.0016],
+        [-0.9425,  0.0021]], device='cuda:0')
+
+ loss: 0.06529467809014022 
+Parameter value: tensor([[-1.4944,  0.0016],
+        [-0.9426,  0.0021]], device='cuda:0')
+
+ loss: 0.06522398092783988 
+Parameter value: tensor([[-1.4943,  0.0015],
+        [-0.9428,  0.0021]], device='cuda:0')
+
+ loss: 0.06523876949213445 
+Parameter value: tensor([[-1.4944,  0.0015],
+        [-0.9429,  0.0021]], device='cuda:0')
+
+ loss: 0.06525720763020218 
+Parameter value: tensor([[    -1.4945,      0.0015],
+        [    -0.9430,      0.0021]], device='cuda:0')
+
+ loss: 0.065241140127182 
+Parameter value: tensor([[    -1.4945,      0.0015],
+        [    -0.9432,      0.0021]], device='cuda:0')
+
+ loss: 0.06524906572885811 
+Parameter value: tensor([[    -1.4946,      0.0014],
+        [    -0.9433,      0.0020]], device='cuda:0')
+
+ loss: 0.06523514003492892 
+Parameter value: tensor([[    -1.4947,      0.0014],
+        [    -0.9434,      0.0020]], device='cuda:0')
+
+ loss: 0.06518236240372062 
+Parameter value: tensor([[    -1.4947,      0.0014],
+        [    -0.9436,      0.0020]], device='cuda:0')
+
+ loss: 0.06519266040995716 
+Parameter value: tensor([[    -1.4948,      0.0013],
+        [    -0.9437,      0.0020]], device='cuda:0')
+
+ loss: 0.06519195032306016 
+Parameter value: tensor([[    -1.4948,      0.0014],
+        [    -0.9439,      0.0020]], device='cuda:0')
+
+ loss: 0.06523018735460936 
+Parameter value: tensor([[    -1.4950,      0.0013],
+        [    -0.9440,      0.0019]], device='cuda:0')
+
+ loss: 0.0652152415830642 
+Parameter value: tensor([[    -1.4950,      0.0013],
+        [    -0.9441,      0.0019]], device='cuda:0')
+
+ loss: 0.0651935616042465 
+Parameter value: tensor([[    -1.4950,      0.0013],
+        [    -0.9443,      0.0019]], device='cuda:0')
+
+ loss: 0.06517275306396186 
+Parameter value: tensor([[    -1.4951,      0.0013],
+        [    -0.9444,      0.0019]], device='cuda:0')
+
+ loss: 0.06517394650727511 
+Parameter value: tensor([[    -1.4951,      0.0012],
+        [    -0.9446,      0.0019]], device='cuda:0')
+
+ loss: 0.06518531437031924 
+Parameter value: tensor([[    -1.4952,      0.0012],
+        [    -0.9448,      0.0019]], device='cuda:0')
+
+ loss: 0.06516770985908807 
+Parameter value: tensor([[    -1.4952,      0.0012],
+        [    -0.9449,      0.0019]], device='cuda:0')
+
+ loss: 0.06517629874870182 
+Parameter value: tensor([[    -1.4953,      0.0012],
+        [    -0.9450,      0.0019]], device='cuda:0')
+
+ loss: 0.06516129467636347 
+Parameter value: tensor([[    -1.4953,      0.0011],
+        [    -0.9452,      0.0019]], device='cuda:0')
+
+ loss: 0.06518527725711465 
+Parameter value: tensor([[    -1.4954,      0.0012],
+        [    -0.9453,      0.0018]], device='cuda:0')
+
+ loss: 0.0651646213606 
+Parameter value: tensor([[    -1.4955,      0.0011],
+        [    -0.9455,      0.0018]], device='cuda:0')
+
+ loss: 0.06520557552576065 
+Parameter value: tensor([[    -1.4956,      0.0011],
+        [    -0.9456,      0.0018]], device='cuda:0')
+
+ loss: 0.06514087188988923 
+Parameter value: tensor([[    -1.4956,      0.0011],
+        [    -0.9457,      0.0018]], device='cuda:0')
+
+ loss: 0.06513205100782216 
+Parameter value: tensor([[    -1.4956,      0.0011],
+        [    -0.9459,      0.0018]], device='cuda:0')
+
+ loss: 0.0651945723220706 
+Parameter value: tensor([[    -1.4958,      0.0011],
+        [    -0.9460,      0.0018]], device='cuda:0')
+
+ loss: 0.06516828336752951 
+Parameter value: tensor([[    -1.4958,      0.0010],
+        [    -0.9461,      0.0018]], device='cuda:0')
+
+ loss: 0.06513516474515199 
+Parameter value: tensor([[    -1.4958,      0.0011],
+        [    -0.9464,      0.0017]], device='cuda:0')
+
+ loss: 0.06514905081130565 
+Parameter value: tensor([[    -1.4959,      0.0011],
+        [    -0.9465,      0.0017]], device='cuda:0')
+
+ loss: 0.06518203471787273 
+Parameter value: tensor([[    -1.4960,      0.0011],
+        [    -0.9466,      0.0017]], device='cuda:0')
+
+ loss: 0.06516768517903984 
+Parameter value: tensor([[    -1.4960,      0.0011],
+        [    -0.9467,      0.0017]], device='cuda:0')
+
+ loss: 0.06518353847786784 
+Parameter value: tensor([[    -1.4961,      0.0011],
+        [    -0.9468,      0.0017]], device='cuda:0')
+
+ loss: 0.06513074226677418 
+Parameter value: tensor([[    -1.4961,      0.0011],
+        [    -0.9469,      0.0017]], device='cuda:0')
+
+ loss: 0.06516093225218356 
+Parameter value: tensor([[    -1.4962,      0.0011],
+        [    -0.9470,      0.0017]], device='cuda:0')
+
+ loss: 0.06512904241681099 
+Parameter value: tensor([[    -1.4963,      0.0010],
+        [    -0.9472,      0.0018]], device='cuda:0')
+
+ loss: 0.06515469690784811 
+Parameter value: tensor([[    -1.4964,      0.0010],
+        [    -0.9473,      0.0017]], device='cuda:0')
+
+ loss: 0.06514411186799407 
+Parameter value: tensor([[    -1.4964,      0.0010],
+        [    -0.9474,      0.0017]], device='cuda:0')
+
+ loss: 0.06509300880134106 
+Parameter value: tensor([[    -1.4964,      0.0011],
+        [    -0.9476,      0.0017]], device='cuda:0')
+
+ loss: 0.06510284529067575 
+Parameter value: tensor([[    -1.4965,      0.0011],
+        [    -0.9477,      0.0017]], device='cuda:0')
+
+ loss: 0.06513193803839386 
+Parameter value: tensor([[    -1.4965,      0.0010],
+        [    -0.9479,      0.0017]], device='cuda:0')
+
+ loss: 0.06511162002570928 
+Parameter value: tensor([[    -1.4966,      0.0010],
+        [    -0.9480,      0.0017]], device='cuda:0')
+
+ loss: 0.06506557306274771 
+Parameter value: tensor([[    -1.4966,      0.0010],
+        [    -0.9481,      0.0017]], device='cuda:0')
+
+ loss: 0.06509481212124228 
+Parameter value: tensor([[    -1.4967,      0.0010],
+        [    -0.9482,      0.0017]], device='cuda:0')
+
+ loss: 0.06513598789460957 
+Parameter value: tensor([[    -1.4968,      0.0010],
+        [    -0.9483,      0.0017]], device='cuda:0')
+
+ loss: 0.06515182941220701 
+Parameter value: tensor([[    -1.4969,      0.0010],
+        [    -0.9484,      0.0017]], device='cuda:0')
+
+ loss: 0.06509448667056858 
+Parameter value: tensor([[    -1.4968,      0.0010],
+        [    -0.9486,      0.0017]], device='cuda:0')
+
+ loss: 0.06505463407374919 
+Parameter value: tensor([[    -1.4968,      0.0010],
+        [    -0.9488,      0.0017]], device='cuda:0')
+
+ loss: 0.06506800851784647 
+Parameter value: tensor([[    -1.4969,      0.0010],
+        [    -0.9489,      0.0017]], device='cuda:0')
+
+ loss: 0.06508560334332288 
+Parameter value: tensor([[    -1.4970,      0.0010],
+        [    -0.9490,      0.0017]], device='cuda:0')
+
+ loss: 0.06506026149727404 
+Parameter value: tensor([[    -1.4970,      0.0011],
+        [    -0.9491,      0.0017]], device='cuda:0')
+
+ loss: 0.06506224093027413 
+Parameter value: tensor([[    -1.4971,      0.0011],
+        [    -0.9492,      0.0017]], device='cuda:0')
+
+ loss: 0.06507612871937454 
+Parameter value: tensor([[    -1.4972,      0.0011],
+        [    -0.9493,      0.0017]], device='cuda:0')
+
+ loss: 0.06506592123769224 
+Parameter value: tensor([[    -1.4972,      0.0010],
+        [    -0.9494,      0.0017]], device='cuda:0')
+
+ loss: 0.06505387383513153 
+Parameter value: tensor([[    -1.4972,      0.0011],
+        [    -0.9495,      0.0017]], device='cuda:0')
+
+ loss: 0.0650960321072489 
+Parameter value: tensor([[    -1.4973,      0.0011],
+        [    -0.9496,      0.0017]], device='cuda:0')
+
+ loss: 0.06509434129111469 
+Parameter value: tensor([[    -1.4974,      0.0011],
+        [    -0.9497,      0.0017]], device='cuda:0')
+
+ loss: 0.06507572876289487 
+Parameter value: tensor([[    -1.4974,      0.0010],
+        [    -0.9498,      0.0017]], device='cuda:0')
+
+ loss: 0.06508148340508342 
+Parameter value: tensor([[    -1.4975,      0.0011],
+        [    -0.9500,      0.0017]], device='cuda:0')
+
+ loss: 0.06503486037254333 
+Parameter value: tensor([[    -1.4975,      0.0011],
+        [    -0.9501,      0.0017]], device='cuda:0')
+
+ loss: 0.06503774672746658 
+Parameter value: tensor([[    -1.4975,      0.0011],
+        [    -0.9502,      0.0017]], device='cuda:0')
+
+ loss: 0.06504308409057558 
+Parameter value: tensor([[    -1.4976,      0.0011],
+        [    -0.9503,      0.0017]], device='cuda:0')
+
+ loss: 0.0650030255317688 
+Parameter value: tensor([[    -1.4976,      0.0011],
+        [    -0.9505,      0.0017]], device='cuda:0')
+
+ loss: 0.06503566578030587 
+Parameter value: tensor([[    -1.4977,      0.0011],
+        [    -0.9506,      0.0017]], device='cuda:0')
+
+ loss: 0.06508009764365852 
+Parameter value: tensor([[    -1.4978,      0.0011],
+        [    -0.9507,      0.0017]], device='cuda:0')
+
+ loss: 0.0650349455885589 
+Parameter value: tensor([[    -1.4978,      0.0011],
+        [    -0.9508,      0.0017]], device='cuda:0')
+
+No weights saved.
+time: 0:19:36.694453
+PS C:\Users\wangw\Desktop\github\并行.1> 

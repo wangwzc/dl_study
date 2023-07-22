@@ -7,8 +7,9 @@ import numpy as np
 import math
 from datetime import datetime
 import torch.nn.init as init
+import sys
 
-num_of_neures_in_input_layer = 5000
+num_of_neures_in_input_layer = 1000
 num_of_neures_in_hidden_layer = 5
 activate_fun = nn.ReLU
 # activate_fun = nn.Sigmoid
@@ -23,9 +24,11 @@ batch_size = 50
 lr = 0.00001
 
 
-epic = 4000
-# input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic})-N-init.1.wt'
-output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr}).({epic})-N-init.1.wt'
+epic = 1000
+input_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600)-N-init.1.wt'
+# input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
+# output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
+# output_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600+1200)-N-init.1.wt'
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # device = torch.device("cpu")
@@ -37,7 +40,8 @@ per_epic_val = True       # 每个epic打印一次验证结果
 
 data_file = "G-small_data.txt"  # 数据文件路径
 
-# torch.set_printoptions(sci_mode=False)
+# torch.set_printoptions(threshold=sys.maxsize)  # 打印张量不省略
+torch.set_printoptions(sci_mode=False)  # 打印张量禁用科学计数法
 
 class MAELoss(nn.Module):
     def __init__(self):
@@ -111,37 +115,21 @@ class MyDataset(Dataset):
                 inputs.append(float(input_value))
                 targets.append(float(target_value))
 
-        # if ("isNeedNormalize" in globals()):
-        #     print("Normalize data.")
-        #     max_value = max(inputs)
-        #     min_value = min(inputs)
-        #     inputs =  [2 * (x - min_value) / (max_value - min_value) - 1 for x in inputs]
-        #     max_value = max(targets)
-        #     min_value = min(targets)
-        #     targets = [(x - min_value) / (max_value - min_value) for x in targets]
-        #     # print(inputs)
-        #     # print(targets)
-        # if num_of_neures_in_input_layer >= 2:
-        #     input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
-        #     inputs = [list(item) for item in zip(inputs, input_noize)]
-        # for i in range(num_of_neures_in_input_layer - 2):
-        #     input_noize = np.random.uniform(-1, 1, size=len(inputs)).astype(float)
-        #     inputs = [sublist + [num] for sublist, num in zip(inputs, input_noize)]
-
         if ("isNeedNormalize" in globals()):
             print("Normalize data.")
             inputs = np.array(inputs)
             targets = np.array(targets)
             inputs = 2 * (inputs - np.min(inputs)) / (np.max(inputs) - np.min(inputs)) - 1
             targets = (targets - np.min(targets)) / (np.max(targets) - np.min(targets))
-        if num_of_neures_in_input_layer >= 2:
-            input_noise = np.random.uniform(-1, 1, size=(len(inputs),)).astype(float)
-            inputs = np.column_stack((inputs, input_noise))
-        # for i in range(num_of_neures_in_input_layer - 2):
-        input_noise = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer - 2))).astype(float)
+
+        input_noise = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer - 1))).astype(float)
         inputs = np.column_stack((inputs, input_noise))
-        inputs = inputs.tolist()
-        targets = targets.tolist()
+        # inputs = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer))).astype(float) # 全噪声，每次随机噪声不一样，不能接着断点续学
+
+        if not isinstance(inputs, list):
+            inputs = inputs.tolist()
+        if not isinstance(targets, list):
+            targets = targets.tolist()
 
         print("inputs.shape:", np.array(inputs).shape)
 

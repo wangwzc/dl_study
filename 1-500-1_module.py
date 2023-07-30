@@ -30,6 +30,7 @@ lr = 0.00001
 epic = 1000
 # input_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600)-N-init.1.wt'
 # input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
+# input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
 # output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
 # output_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600+1200)-N-init.1.wt'
 
@@ -40,6 +41,7 @@ isNeedNormalize = True    # 是都对数据做归一化
 # checkValidity = True    # train集 全集验证
 # per_batch_val = True    # 每个batch打印一次验证结果
 per_epic_val = True       # 每个epic打印一次验证结果
+# print_train_abs_loss = True  # 每个epic打印一次训练集loss
 
 data_file = "G-small_data.txt"  # 数据文件路径
 
@@ -233,6 +235,7 @@ def train(net):
     print("prepare time:", (before_train_time - start_time))
     last_around_start_time = before_train_time
 
+    abs_losses = []
     for i in range(epic):
         # print("###################### epic:", i)
         # start_train_time = datetime.now()
@@ -257,6 +260,10 @@ def train(net):
             # 计算训练损失
             loss = criterion(output_tensor, batch_targets)
 
+            # 计算平均值损失
+            abs_loss = torch.mean(torch.abs(output_tensor - batch_targets))
+            abs_losses.append(abs_loss.item())
+
             # 反向传播和优化
             optimizer.zero_grad()
             loss.backward()
@@ -266,6 +273,8 @@ def train(net):
                 # 在每个batch结束后计算验证损失
                 validate_loss(val_dataloader, criterion)
 
+        if ("print_train_abs_loss" in globals()):
+            print("\t\t\ttrain dataset abs:\033[33m", sum(abs_losses) / len(abs_losses), "\033[0m")
         if ("per_epic_val" in globals()):
             # 在每个epic结束后计算验证损失
             validate_loss(val_dataloader, criterion)

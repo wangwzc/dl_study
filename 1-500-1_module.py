@@ -8,6 +8,9 @@ import math
 from datetime import datetime
 import torch.nn.init as init
 import sys
+# from heartrate import trace
+# trace(browser=True)
+
 
 num_of_neures_in_input_layer = 1000
 num_of_neures_in_hidden_layer = 5
@@ -25,7 +28,7 @@ lr = 0.00001
 
 
 epic = 1000
-input_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600)-N-init.1.wt'
+# input_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600)-N-init.1.wt'
 # input_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
 # output_weights_file = f'({num_of_neures_in_input_layer}+{num_of_neures_in_hidden_layer}+1).ReLu.MSELoss.Adam.{batch_size}.({lr:f}).({epic})-N-init.1.wt'
 # output_weights_file = f'all_noize(1000+5+1).ReLu.MSELoss.Adam.50.(0.00001).(1600+1200)-N-init.1.wt'
@@ -77,6 +80,7 @@ class MyNetwork(nn.Module):
         x = self.fc1(x)
         x = self.activate(x)
         x = self.fc2(x)
+        # 打印倒数第二层神经元值
         # print(x)
         # for line in x.tolist():
         #     # for x1x2 in line:
@@ -97,48 +101,35 @@ class MyDataset(Dataset):
         target_value = self.targets[idx]
 
         # 数据预处理
-        if self.transform:
-            input_value = self.transform([input_value]).reshape(num_of_neures_in_input_layer,)
-            target_value = self.transform([target_value])
+        input_value = torch.tensor(input_value)
+        target_value = torch.tensor([target_value])
 
         return input_value, target_value
 
     def _load_data(self, data_file):
-        # 从文件中加载数据的逻辑，请根据实际情况进行替换
-        # 返回输入数据列表和目标数据列表
-        inputs = []
-        targets = []
+        # 从文件中加载数据的逻辑, 返回输入数据列表和目标数据列表
+        inputs = np.array([], dtype=np.float32)
+        targets = np.array([], dtype=np.float32)
         with open(data_file, 'r') as f:
             for line in f:
                 # 假设每行数据包含输入和目标，使用空格分隔
                 input_value, target_value = line.strip().split()
-                inputs.append(float(input_value))
-                targets.append(float(target_value))
+                inputs = np.append(inputs, np.float32(input_value))
+                targets = np.append(targets, np.float32(target_value))
 
         if ("isNeedNormalize" in globals()):
             print("Normalize data.")
-            inputs = np.array(inputs)
-            targets = np.array(targets)
-            inputs = 2 * (inputs - np.min(inputs)) / (np.max(inputs) - np.min(inputs)) - 1
-            targets = (targets - np.min(targets)) / (np.max(targets) - np.min(targets))
+            inputs_min = np.min(inputs);  targets_min = np.min(targets)
+            inputs = 2 * (inputs - inputs_min) / (np.max(inputs) - inputs_min) - 1
+            targets = (targets - targets_min) / (np.max(targets) - targets_min)
 
         input_noise = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer - 1))).astype(float)
         inputs = np.column_stack((inputs, input_noise))
         # inputs = np.random.uniform(-1, 1, size=(len(inputs),(num_of_neures_in_input_layer))).astype(float) # 全噪声，每次随机噪声不一样，不能接着断点续学
 
-        if not isinstance(inputs, list):
-            inputs = inputs.tolist()
-        if not isinstance(targets, list):
-            targets = targets.tolist()
-
         print("inputs.shape:", np.array(inputs).shape)
 
         return inputs, targets
-
-    def normalize(self, x):
-        max_value = max(x)
-        min_value = min(x)
-        return [(i - min_value) / (max_value - min_value) for i in x]
 
 class ToTensor(object):
     def __call__(self, x):
@@ -245,7 +236,8 @@ def train(net):
     for i in range(epic):
         # print("###################### epic:", i)
         # start_train_time = datetime.now()
-        # print("start train time:", (start_train_time - last_around_start_time))
+        # print("epoch train time:\033[33m", (start_train_time - last_around_start_time), "\033[0m")
+        # print("    total train time:\033[34m", (start_train_time - before_train_time), "\033[0m")
         # last_around_start_time = start_train_time
 
         # 训练每个批次
